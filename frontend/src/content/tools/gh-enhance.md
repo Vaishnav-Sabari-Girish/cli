@@ -33,9 +33,9 @@ media: https://github.com/dlvhdr/gh-enhance/raw/main/tapes/demo.gif
 logo: https://avatars.githubusercontent.com/u/6196971?v=4
 updated: '2026-07-18'
 repo_stars: 238
-repo_updated: "2026-09-21"
+repo_updated: "2026-10-02"
 repo_created: "2025-10-02"
-repo_release: "v0.7.2"
-repo_release_date: "2026-09-21"
+repo_release: "v0.8.0"
+repo_release_date: "2026-10-02"
 comments: []
 ---

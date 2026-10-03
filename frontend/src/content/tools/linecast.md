@@ -43,7 +43,7 @@ media: https://raw.githubusercontent.com/ashuttl/linecast/main/screenshots/hero.
 logo: https://avatars.githubusercontent.com/u/2095936?v=4
 updated: '2026-08-21'
 repo_stars: 579
-repo_updated: "2026-10-02"
+repo_updated: "2026-10-03"
 repo_created: "2026-03-05"
 repo_release: "v2.9.3"
 repo_release_date: "2026-10-01"
