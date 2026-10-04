@@ -54,6 +54,6 @@ updated: '2026-08-21'
 repo_stars: 398
 repo_updated: "2026-10-03"
 repo_created: "2025-11-25"
-repo_release: "v0.5.0"
-repo_release_date: "2026-09-22"
+repo_release: "v0.5.1"
+repo_release_date: "2026-10-03"
 ---
