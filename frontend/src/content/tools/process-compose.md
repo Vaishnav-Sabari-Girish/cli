@@ -47,7 +47,7 @@ media: https://raw.githubusercontent.com/F1bonacc1/process-compose/main/imgs/dem
 logo: https://cli.masoko.net/uploads/process-compose/logo.png
 updated: '2026-07-13'
 repo_stars: 2823
-repo_updated: "2026-09-28"
+repo_updated: "2026-10-05"
 repo_created: "2022-04-05"
 repo_release: "v1.122.0"
 repo_release_date: "2026-08-17"
