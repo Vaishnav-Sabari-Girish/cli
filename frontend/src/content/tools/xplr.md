@@ -55,7 +55,7 @@ media: https://cli.masoko.net/uploads/xplr/media.mp4
 logo: https://cli.masoko.net/uploads/xplr/logo.png
 updated: '2026-07-13'
 repo_stars: 4838
-repo_updated: "2026-09-23"
+repo_updated: "2026-10-07"
 repo_created: "2021-02-24"
 repo_release: "v1.1.2"
 repo_release_date: "2026-09-15"
