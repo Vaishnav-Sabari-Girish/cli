@@ -2,7 +2,7 @@
 import type { GetStaticPaths } from 'astro';
 import { getCollection } from 'astro:content';
 import { CATEGORIES } from '../lib/schema';
-import { getSortedTools, sortForListing } from '../lib/tools';
+import { getSortedTools, sortByUpdated } from '../lib/tools';
 import { getReservedSlugs, filterDisplayTags } from '../lib/tag-filter';
 import { PAGE_SIZE, MAX_CARD_TAGS } from '../lib/config';
 import BaseLayout from '../layouts/BaseLayout.astro';
@@ -19,7 +19,7 @@ const { page } = Astro.props;
 
 // The <select> options and the client-side search index are built from the FULL
 // collection so filtering works across every page, not just this page's slice.
-const allTools = sortForListing(await getCollection('tools'));
+const allTools = sortByUpdated(await getCollection('tools'));
 const languages = [...new Set(allTools.map((tool) => tool.data.language))].sort();
 const usedCategories = new Set(allTools.map((tool) => tool.data.category));
 const categories = CATEGORIES.filter((category) => usedCategories.has(category));

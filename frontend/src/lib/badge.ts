@@ -44,7 +44,7 @@ ${text(labelWidth + PAD_X, messageText, MESSAGE)}
 // A README "links back" when it embeds this tool's badge or links to its
 // page. The daily stats sync (scripts/sync-github-stats.ts) checks this and
 // stamps `repo_badge: true`, which marks the listing verified and ranks it
-// first (see sortForListing in lib/tools.ts).
+// first on category/tag/language pages (see sortForListing in lib/tools.ts).
 export function readmeLinksBack(readme: string, toolId: string): boolean {
 	const id = toolId.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 	return new RegExp(`cli\\.masoko\\.net/(?:badge/${id}\\.svg|tools/${id}(?![\\w-]))`, 'i').test(readme);
