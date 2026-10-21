@@ -40,4 +40,5 @@ repo_updated: "2026-10-20"
 repo_created: "2026-06-05"
 repo_release: "v5.2.5"
 repo_release_date: "2026-10-19"
+repo_badge: true
 ---
