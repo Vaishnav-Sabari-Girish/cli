@@ -13,7 +13,7 @@ description: >-
   distraction-free, focused viewpoint. Fully customizable via a TOML
   configuration file, you can fine-tune parameters such as your preferred zoom
   factor, zoom step, spotlight radius, and dimming intensity to suit your
-  workflow.
+  workflow. It also has an annotation mode which allows users to draw shapes like rectangles, ellipses,    circles and even type text.
 repository_url: https://codeberg.org/Vaishnav-Sabari-Girish/miru
 website: https://blog.vaishnavs.is-a.dev/miru/
 author: Vaishnav-Sabari-Girish
@@ -25,9 +25,9 @@ installation:
   - method: aur
     command: paru -S miru-zoom-git
   - method: brew
-    command: brew install Vaishnav-Sabari-Girish/taps/miru
+    command: brew tap Vaishnav-Sabari-Girish/taps https://codeberg.org/Vaishnav-Sabari-Girish/homebrew-taps && brew install Vaishnav-Sabari-Girish/taps/miru
   - method: nix
-    command: nix profile add github:Vaishnav-Sabari-Girish/miru
+    command: nix profile add git+https://codeberg.org/Vaishnav-Sabari-Girish/miru
 platforms:
   - Linux
 tags:
@@ -37,7 +37,7 @@ tags:
   - wayland
 media: https://github.com/Vaishnav-Sabari-Girish/miru/raw/refs/heads/main/out_web.mp4
 logo: https://cli.masoko.net/uploads/miru/logo.svg
-updated: '2026-10-08'
+updated: '2026-10-21'
 repo_stars: 11
 repo_updated: "2026-10-20"
 repo_created: "2026-08-07"
