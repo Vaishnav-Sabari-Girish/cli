@@ -33,9 +33,11 @@ platforms:
   - macOS
   - Windows
 tags:
-  - email-client
+  - email
+  - client
   - tui
 media: https://github.com/allisonhere/tidemail/raw/main/images/tidemail.png
 logo: https://github.com/allisonhere/tidemail/raw/main/images/tidemail-icon.png
 updated: '2026-10-21'
+comments: []
 ---
