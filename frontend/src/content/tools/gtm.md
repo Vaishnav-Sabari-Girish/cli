@@ -2,10 +2,10 @@
 name: gtm
 category: Media & Entertainment
 short_description: 📻 gtm(d) is a feature rich terminal audio player.
-description: |-
-  A feature-rich, interactive terminal audio player built for music lovers.   
-  Provides a sleek command-line interface to stream, organize, and control media playback effortlessly.  
-  Combines lightweight performance with a modern TUI experience for managing local and remote playlists.
+description: >-
+  A feature-rich, interactive terminal audio player built for music lovers, it
+  splits the daemon from the client allowing other terminal tools to hack around
+  it.
 repository_url: https://github.com/prjctimg/gtm
 website: https://gtmd.dev
 author: prjctimg
@@ -15,9 +15,11 @@ installation:
   - method: script
     command: curl -fsSL https://gtmd.dev/install.sh | bash
   - method: aur
-    command: yay -S gtm-player
+    command: paru -S gtm-player-bin
+  - method: cargo
+    command: cargo install gtm —locked
   - method: aur
-    command: paru -S gtm-player
+    command: yay -S gtm-player-bin
 platforms:
   - Linux
   - macOS
@@ -30,18 +32,21 @@ tags:
   - youtube
 media: https://github.com/prjctimg/gtm/raw/dev/screenshots/1.png
 logo: https://cli.masoko.net/uploads/gtm/logo.png
-updated: '2026-10-17'
+updated: '2026-10-22'
+comments:
+  - user: prjctimg
+    body: >-
+      Good to know, I am looking for contributors to improve the providers
+      supported and cross platform testing and optimizations to make this the
+      best cliamp alternative! 
+
+
+      Just open an issue on GitHub. Discord server coming soon💜
+    date: '2026-10-22T12:58:16.149Z'
 repo_stars: 37
 repo_updated: '2026-10-22'
 repo_created: '2026-06-30'
 repo_release: v0.2.95
 repo_release_date: '2026-10-21'
 repo_badge: true
-comments:
-  - user: prjctimg
-    body: |-
-      Good to know, I am looking for contributors to improve the providers supported and cross platform testing and optimizations to make this the best cliamp alternative! 
-
-      Just open an issue on GitHub. Discord server coming soon💜
-    date: '2026-10-22T12:58:16.149Z'
 ---
