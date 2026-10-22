@@ -52,7 +52,7 @@ tags:
 logo: https://www.chezmoi.io/logo.svg
 updated: '2026-07-21'
 repo_stars: 22008
-repo_updated: "2026-10-20"
+repo_updated: "2026-10-21"
 repo_created: "2018-11-12"
 repo_release: "v2.73.3"
 repo_release_date: "2026-10-20"
