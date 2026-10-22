@@ -24,6 +24,8 @@ installation:
     command: paru -S miru-zoom
   - method: aur
     command: paru -S miru-zoom-git
+  - method: dnf
+    command: sudo dnf copr enable vaishnavs/miru && sudo dnf install miru 
   - method: brew
     command: brew tap Vaishnav-Sabari-Girish/taps https://codeberg.org/Vaishnav-Sabari-Girish/homebrew-taps && brew install Vaishnav-Sabari-Girish/taps/miru
   - method: nix
@@ -35,11 +37,11 @@ tags:
   - daemon
   - zoom
   - wayland
-media: https://github.com/Vaishnav-Sabari-Girish/miru/raw/refs/heads/main/out_web.mp4
+media: https://codeberg.org/Vaishnav-Sabari-Girish/miru/src/branch/main/out_web.mp4
 logo: https://cli.masoko.net/uploads/miru/logo.svg
-updated: '2026-10-21'
+updated: '2026-10-22'
 repo_stars: 11
-repo_updated: "2026-10-21"
+repo_updated: "2026-10-22"
 repo_created: "2026-08-07"
 repo_release: "v0.13.0"
 repo_release_date: "2026-10-20"
