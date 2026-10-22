@@ -37,7 +37,7 @@ tags:
   - daemon
   - zoom
   - wayland
-media: https://codeberg.org/Vaishnav-Sabari-Girish/miru/src/branch/main/out_web.mp4
+media: https://codeberg.org/Vaishnav-Sabari-Girish/miru/raw/commit/8f4052f72beac56d7609d01fd7445ea9af406739/miru_img.png
 logo: https://cli.masoko.net/uploads/miru/logo.svg
 updated: '2026-10-22'
 repo_stars: 11
