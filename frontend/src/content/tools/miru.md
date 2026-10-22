@@ -24,7 +24,7 @@ installation:
     command: paru -S miru-zoom
   - method: aur
     command: paru -S miru-zoom-git
-  - method: copr
+  - method: dnf
     command: sudo dnf copr enable vaishnavs/miru && sudo dnf install miru 
   - method: brew
     command: brew tap Vaishnav-Sabari-Girish/taps https://codeberg.org/Vaishnav-Sabari-Girish/homebrew-taps && brew install Vaishnav-Sabari-Girish/taps/miru
