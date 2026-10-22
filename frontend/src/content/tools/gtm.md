@@ -2,14 +2,10 @@
 name: gtm
 category: Media & Entertainment
 short_description: 📻 gtm(d) is a feature rich terminal audio player.
-description: >-
+description: |-
   A feature-rich, interactive terminal audio player built for music lovers.   
-
-  Provides a sleek command-line interface to stream, organize, and control media
-  playback effortlessly.  
-
-  Combines lightweight performance with a modern TUI experience for managing
-  local and remote playlists.
+  Provides a sleek command-line interface to stream, organize, and control media playback effortlessly.  
+  Combines lightweight performance with a modern TUI experience for managing local and remote playlists.
 repository_url: https://github.com/prjctimg/gtm
 website: https://gtmd.dev
 author: prjctimg
@@ -36,9 +32,16 @@ media: https://github.com/prjctimg/gtm/raw/dev/screenshots/1.png
 logo: https://cli.masoko.net/uploads/gtm/logo.png
 updated: '2026-10-17'
 repo_stars: 37
-repo_updated: "2026-10-22"
-repo_created: "2026-06-30"
-repo_release: "v0.2.95"
-repo_release_date: "2026-10-21"
+repo_updated: '2026-10-22'
+repo_created: '2026-06-30'
+repo_release: v0.2.95
+repo_release_date: '2026-10-21'
 repo_badge: true
+comments:
+  - user: prjctimg
+    body: |-
+      Good to know, I am looking for contributors to improve the providers supported and cross platform testing and optimizations to make this the best cliamp alternative! 
+
+      Just open an issue on GitHub. Discord server coming soon💜
+    date: '2026-10-22T12:58:16.149Z'
 ---
