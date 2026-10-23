@@ -34,10 +34,13 @@ tags:
   - typing-test
   - webassembly
   - wpm
-updated: '2026-10-22'
+media: https://github.com/leodiegues/typepper/raw/main/assets/gifs/hero.gif
+logo: https://cli.masoko.net/uploads/typepper/logo.png
+updated: '2026-10-23'
+comments: []
 repo_stars: 25
-repo_updated: "2026-10-22"
-repo_created: "2026-10-15"
-repo_release: "v0.3.0"
-repo_release_date: "2026-10-22"
+repo_updated: '2026-10-22'
+repo_created: '2026-10-15'
+repo_release: v0.3.0
+repo_release_date: '2026-10-22'
 ---
