@@ -46,9 +46,9 @@ media: >-
   https://raw.githubusercontent.com/MrLesk/Backlog.md/main/.github/backlog-v1.40.gif
 logo: https://github.com/MrLesk/Backlog.md/raw/main/.github/backlog-logo.png
 updated: '2026-07-18'
-repo_stars: 7110
-repo_updated: "2026-10-21"
+repo_stars: 7121
+repo_updated: "2026-10-22"
 repo_created: "2025-06-04"
-repo_release: "v1.55.1"
-repo_release_date: "2026-10-21"
+repo_release: "v1.55.2"
+repo_release_date: "2026-10-22"
 ---

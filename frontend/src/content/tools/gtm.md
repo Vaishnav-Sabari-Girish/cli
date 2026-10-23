@@ -33,6 +33,12 @@ tags:
 media: https://github.com/prjctimg/gtm/raw/dev/screenshots/1.png
 logo: https://cli.masoko.net/uploads/gtm/logo.png
 updated: '2026-10-22'
+repo_stars: 42
+repo_updated: "2026-10-22"
+repo_created: "2026-06-30"
+repo_release: "v0.2.95"
+repo_release_date: "2026-10-21"
+repo_badge: true
 comments:
   - user: prjctimg
     body: >-
@@ -43,10 +49,4 @@ comments:
 
       Just open an issue on GitHub. Discord server coming soon💜
     date: '2026-10-22T12:58:16.149Z'
-repo_stars: 37
-repo_updated: '2026-10-22'
-repo_created: '2026-06-30'
-repo_release: v0.2.95
-repo_release_date: '2026-10-21'
-repo_badge: true
 ---
