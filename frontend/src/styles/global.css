@@ -1057,6 +1057,23 @@ dd {
 	color: var(--accent-green);
 }
 
+.submit-badge-info {
+	border-left: 2px solid var(--accent-green);
+	padding: 0.2rem 0 0.2rem 1rem;
+	margin: 0 0 1.5rem;
+	color: var(--fg-dim);
+	font-size: 0.9rem;
+}
+
+.submit-badge-info h2 {
+	font-size: 0.95rem;
+	margin: 0 0 0.4rem;
+}
+
+.submit-badge-info p {
+	margin: 0.4rem 0;
+}
+
 #submit-form {
 	display: flex;
 	flex-direction: column;
