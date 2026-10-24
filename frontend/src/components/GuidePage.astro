@@ -29,13 +29,13 @@ const reservedSlugs = getReservedSlugs(allTools);
 	backHref={`/${section}/`}
 	breadcrumb={[{ label: `${section}/`, href: `/${section}/` }, { label: guide.slug }]}
 >
-	<header class="hero">
-		<h1>
-			{section === 'collections' && <CollectionIcon slug={guide.slug} size={28} class="lang-icon lang-icon-lg collection-icon" />}
-			{guide.title}
-		</h1>
-		<p class="entity-description">{guide.intro}</p>
-		<p class="tagline"># {tools.length} tools, most-starred first</p>
+	<header class:list={['hero', { 'collection-hero': section === 'collections' }]}>
+		{section === 'collections' && <CollectionIcon slug={guide.slug} size={88} />}
+		<div>
+			<h1>{guide.title}</h1>
+			<p class="entity-description">{guide.intro}</p>
+			<p class="tagline"># {tools.length} tools, most-starred first</p>
+		</div>
 	</header>
 
 	<ul id="tool-grid">{tools.map((tool) => <ToolCard tool={tool} reservedSlugs={reservedSlugs} />)}</ul>

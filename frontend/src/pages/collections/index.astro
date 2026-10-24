@@ -21,16 +21,19 @@ import CollectionIcon from '../../components/CollectionIcon.astro';
 		</nav>
 	</header>
 
-	<ul class="dir-grid">
+	<ul class="dir-grid collection-grid">
 		{
 			COLLECTIONS.map((guide) => (
 				<li>
 					<a href={`/collections/${guide.slug}/`}>
-						<span class="dir-head">
-							<span class="dir-name"><CollectionIcon slug={guide.slug} />{guide.slug}/</span>
-							<span class="count">{guide.tools.length}</span>
+						<CollectionIcon slug={guide.slug} />
+						<span class="collection-text">
+							<span class="dir-head">
+								<span class="dir-name">{guide.slug}/</span>
+								<span class="count">{guide.tools.length}</span>
+							</span>
+							<span class="dir-desc">{guide.intro}</span>
 						</span>
-						<span class="dir-desc">{guide.intro}</span>
 					</a>
 				</li>
 			))
