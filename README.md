@@ -11,7 +11,7 @@
     </tr>
   </table>
 
-[![Tools](https://img.shields.io/badge/tools-251-f74c00)](https://cli.masoko.net)
+[![Tools](https://img.shields.io/badge/tools-252-f74c00)](https://cli.masoko.net)
 [![Website](https://img.shields.io/badge/website-cli.masoko.net-14151a)](https://cli.masoko.net)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](#contributing)
@@ -22,9 +22,9 @@
 
 <!-- TOOLS:START -->
 
-**251 tools** across **16 categories** — browse with screenshots, ratings and comments at [cli.masoko.net](https://cli.masoko.net).
+**252 tools** across **16 categories** — browse with screenshots, ratings and comments at [cli.masoko.net](https://cli.masoko.net).
 
-[File Management](#file-management) (17) · [Shell History](#shell-history) (3) · [Directory Listing](#directory-listing) (13) · [System Monitoring](#system-monitoring) (10) · [Productivity](#productivity) (22) · [Development Tools](#development-tools) (7) · [Networking](#networking) (26) · [Text Editors](#text-editors) (28) · [Media & Entertainment](#media--entertainment) (25) · [Security](#security) (6) · [DevOps & Cloud](#devops--cloud) (14) · [Data Processing](#data-processing) (30) · [Games & Fun](#games--fun) (8) · [AI](#ai) (8) · [Git](#git) (19) · [Utilities & Other](#utilities--other) (15)
+[File Management](#file-management) (17) · [Shell History](#shell-history) (3) · [Directory Listing](#directory-listing) (13) · [System Monitoring](#system-monitoring) (10) · [Productivity](#productivity) (22) · [Development Tools](#development-tools) (7) · [Networking](#networking) (26) · [Text Editors](#text-editors) (28) · [Media & Entertainment](#media--entertainment) (25) · [Security](#security) (6) · [DevOps & Cloud](#devops--cloud) (14) · [Data Processing](#data-processing) (30) · [Games & Fun](#games--fun) (8) · [AI](#ai) (8) · [Git](#git) (19) · [Utilities & Other](#utilities--other) (16)
 
 ### File Management
 
@@ -350,6 +350,7 @@
 | [matcha](https://matcha.email) | A beautiful and functional email client for your terminal, built with Go and the charming Bubble… | Go | 1.1k | [Repo](https://github.com/floatpane/matcha), [Website](https://matcha.email) |
 | [miru](https://blog.vaishnavs.is-a.dev/miru/) | Zooming daemon for wayland | C | 11 | [Repo](https://codeberg.org/Vaishnav-Sabari-Girish/miru), [Website](https://blog.vaishnavs.is-a.dev/miru/) |
 | [moji](https://moji.micr.dev/docs) | find and download fonts from the terminal | Go | 257 | [Repo](https://github.com/Microck/moji), [Website](https://moji.micr.dev/docs) |
+| [neomutt](https://neomutt.org/) | ✉️ A fast, highly configurable terminal email client with modern patches like a mailbox sidebar and… | C | – | [Repo](https://github.com/neomutt/neomutt), [Website](https://neomutt.org/) |
 | [rclone](https://rclone.org) | "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic,… | Go | 60.5k | [Repo](https://github.com/rclone/rclone), [Website](https://rclone.org) |
 | [sake](https://sakecli.com) | 🤖 task runner for local and remote hosts | Go | 752 | [Repo](https://github.com/alajmo/sake), [Website](https://sakecli.com) |
 | [sauva](https://lusingander.github.io/sauva/) | Terminal Unicode Explorer 🪄 | Rust | 102 | [Repo](https://github.com/lusingander/sauva), [Website](https://lusingander.github.io/sauva/) |
