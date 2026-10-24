@@ -3,6 +3,7 @@ import { getCollection } from 'astro:content';
 import { CATEGORIES } from '../../lib/schema';
 import { slugify } from '../../lib/slug';
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import BrowseLinks from '../../components/BrowseLinks.astro';
 import { pageTitle } from '../../lib/seo';
 import TileIcon from '../../components/TileIcon.astro';
 
@@ -28,10 +29,7 @@ const nonEmptyCategories = CATEGORIES.filter((category) => (counts.get(category)
 	<header class="hero">
 		<h1>Categories</h1>
 		<p class="tagline"># browse tools grouped by category</p>
-		<nav class="browse-links">
-			<a href="/tags/">ls tags/</a>
-			<a href="/languages/">ls languages/</a>
-		</nav>
+		<BrowseLinks current="categories" />
 	</header>
 
 	<ul class="dir-grid tile-grid">

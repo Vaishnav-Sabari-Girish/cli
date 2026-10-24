@@ -1,0 +1,61 @@
+---
+import { getLanguageIcon, isNearBlack, splitLanguageLabel } from '../lib/languageIcons';
+import { TILE_FRAME } from '../lib/tile-icons';
+
+// A 64x64 tile matching TileIcon, with the language's brand logo inside.
+// Joined labels ("C / C++") get their logos side by side.
+interface Props {
+	language: string;
+	size?: number;
+}
+
+const { language, size = 64 } = Astro.props;
+const names = splitLanguageLabel(language);
+const glyph = names.length > 1 ? 22 : 32;
+const gap = 4;
+const left = (64 - names.length * glyph - (names.length - 1) * gap) / 2;
+const top = (64 - glyph) / 2;
+
+const glyphs = names.map((name, i) => ({
+	icon: getLanguageIcon(name),
+	x: left + i * (glyph + gap),
+}));
+---
+
+<svg class="tile-icon" viewBox="0 0 64 64" width={size} height={size} role="img" aria-label={language}>
+	<Fragment set:html={TILE_FRAME} />
+	{
+		glyphs.map(({ icon, x }) =>
+			icon ? (
+				<svg
+					x={x}
+					y={top}
+					width={glyph}
+					height={glyph}
+					viewBox="0 0 24 24"
+					fill={`#${icon.hex}`}
+					stroke={isNearBlack(icon.hex) ? 'var(--fg-dim)' : 'none'}
+					stroke-width={isNearBlack(icon.hex) ? '0.5' : '0'}
+				>
+					<path d={icon.path} />
+				</svg>
+			) : (
+				<svg
+					x={x}
+					y={top}
+					width={glyph}
+					height={glyph}
+					viewBox="0 0 24 24"
+					fill="none"
+					stroke="#4c8dff"
+					stroke-width="2.5"
+					stroke-linecap="round"
+					stroke-linejoin="round"
+				>
+					<polyline points="16 18 22 12 16 6" />
+					<polyline points="8 6 2 12 8 18" />
+				</svg>
+			),
+		)
+	}
+</svg>

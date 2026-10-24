@@ -388,6 +388,16 @@ textarea {
 	text-decoration: none;
 }
 
+.browse-links .current {
+	color: var(--fg);
+	white-space: nowrap;
+}
+
+.browse-links .current::before {
+	content: '> ';
+	color: var(--accent-green);
+}
+
 /* Guide titles are full sentences, too long to keep on one line. */
 .guide-links a {
 	white-space: normal;
@@ -1562,7 +1572,7 @@ button[type='submit']:disabled {
 	color: var(--accent-rust);
 }
 
-/* ---------- collection tiles (collections and categories) ---------- */
+/* ---------- tiles (collections, categories and languages) ---------- */
 
 .tile-icon {
 	flex-shrink: 0;

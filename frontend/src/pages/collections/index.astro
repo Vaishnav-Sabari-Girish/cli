@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import BrowseLinks from '../../components/BrowseLinks.astro';
 import { COLLECTIONS } from '../../lib/guides';
 import { pageTitle } from '../../lib/seo';
 import TileIcon from '../../components/TileIcon.astro';
@@ -15,10 +16,7 @@ import TileIcon from '../../components/TileIcon.astro';
 	<header class="hero">
 		<h1>Collections</h1>
 		<p class="tagline"># hand-picked roundups across categories</p>
-		<nav class="browse-links">
-			<a href="/alternatives/">ls alternatives/</a>
-			<a href="/categories/">ls categories/</a>
-		</nav>
+		<BrowseLinks current="collections" />
 	</header>
 
 	<ul class="dir-grid tile-grid">

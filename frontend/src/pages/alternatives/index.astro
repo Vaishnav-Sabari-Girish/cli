@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import BrowseLinks from '../../components/BrowseLinks.astro';
 import { ALTERNATIVES } from '../../lib/guides';
 import { pageTitle } from '../../lib/seo';
 ---
@@ -14,10 +15,7 @@ import { pageTitle } from '../../lib/seo';
 	<header class="hero">
 		<h1>Alternatives</h1>
 		<p class="tagline"># modern replacements for classic commands and apps</p>
-		<nav class="browse-links">
-			<a href="/collections/">ls collections/</a>
-			<a href="/categories/">ls categories/</a>
-		</nav>
+		<BrowseLinks current="alternatives" />
 	</header>
 
 	<ul class="dir-grid">
