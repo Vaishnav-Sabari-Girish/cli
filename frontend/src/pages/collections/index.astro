@@ -2,7 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { COLLECTIONS } from '../../lib/guides';
 import { pageTitle } from '../../lib/seo';
-import CollectionIcon from '../../components/CollectionIcon.astro';
+import TileIcon from '../../components/TileIcon.astro';
 ---
 
 <BaseLayout
@@ -21,13 +21,13 @@ import CollectionIcon from '../../components/CollectionIcon.astro';
 		</nav>
 	</header>
 
-	<ul class="dir-grid collection-grid">
+	<ul class="dir-grid tile-grid">
 		{
 			COLLECTIONS.map((guide) => (
 				<li>
 					<a href={`/collections/${guide.slug}/`}>
-						<CollectionIcon slug={guide.slug} />
-						<span class="collection-text">
+						<TileIcon kind="collection" slug={guide.slug} />
+						<span class="tile-text">
 							<span class="dir-head">
 								<span class="dir-name">{guide.slug}/</span>
 								<span class="count">{guide.tools.length}</span>

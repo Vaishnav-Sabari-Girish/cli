@@ -4,6 +4,7 @@ import { CATEGORIES } from '../../lib/schema';
 import { slugify } from '../../lib/slug';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { pageTitle } from '../../lib/seo';
+import TileIcon from '../../components/TileIcon.astro';
 
 const tools = await getCollection('tools');
 const descriptions = new Map((await getCollection('categories')).map((entry) => [entry.id, entry.data.description]));
@@ -33,18 +34,21 @@ const nonEmptyCategories = CATEGORIES.filter((category) => (counts.get(category)
 		</nav>
 	</header>
 
-	<ul class="dir-grid">
+	<ul class="dir-grid tile-grid">
 		{
 			nonEmptyCategories.map((category) => (
 				<li>
 					<a href={`/categories/${slugify(category)}/`}>
-						<span class="dir-head">
-							<span class="dir-name">{category}/</span>
-							<span class="count">{counts.get(category)}</span>
+						<TileIcon kind="category" slug={slugify(category)} />
+						<span class="tile-text">
+							<span class="dir-head">
+								<span class="dir-name">{category}/</span>
+								<span class="count">{counts.get(category)}</span>
+							</span>
+							{descriptions.get(slugify(category)) && (
+								<span class="dir-desc">{descriptions.get(slugify(category))}</span>
+							)}
 						</span>
-						{descriptions.get(slugify(category)) && (
-							<span class="dir-desc">{descriptions.get(slugify(category))}</span>
-						)}
 					</a>
 				</li>
 			))

@@ -1,0 +1,22 @@
+---
+import { CATEGORY_ICONS, COLLECTION_ICONS, FALLBACK_ICON, TILE_FRAME } from '../lib/tile-icons';
+
+// A 64x64 illustrated tile for a collection or category (see lib/tile-icons.ts).
+interface Props {
+	kind: 'collection' | 'category';
+	slug: string;
+	size?: number;
+}
+
+const { kind, slug, size = 64 } = Astro.props;
+const icons = kind === 'collection' ? COLLECTION_ICONS : CATEGORY_ICONS;
+---
+
+<svg
+	class="tile-icon"
+	viewBox="0 0 64 64"
+	width={size}
+	height={size}
+	aria-hidden="true"
+	set:html={TILE_FRAME + (icons[slug] ?? FALLBACK_ICON)}
+/>
