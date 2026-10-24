@@ -54,9 +54,9 @@ media: >-
 logo: >-
   https://github.com/Dhairya3391/kari/blob/main/assets/discord/kari_logo.png?raw=true
 updated: '2026-10-21'
-repo_stars: 61
-repo_updated: "2026-10-23"
+repo_stars: 62
+repo_updated: "2026-10-24"
 repo_created: "2026-06-08"
-repo_release: "v6.2.0"
-repo_release_date: "2026-10-23"
+repo_release: "v6.2.2"
+repo_release_date: "2026-10-24"
 ---

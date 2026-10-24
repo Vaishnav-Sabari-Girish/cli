@@ -40,7 +40,7 @@ tags:
 media: https://cli.masoko.net/uploads/gitgo/media.gif
 logo: https://cli.masoko.net/uploads/gitgo/logo.png
 updated: '2026-10-23'
-repo_stars: 18
+repo_stars: 19
 repo_updated: "2026-10-22"
 repo_created: "2025-09-30"
 repo_release: "v1.11.0"
