@@ -35,8 +35,8 @@ tags:
 media: https://raw.githubusercontent.com/iamrohithrnair/emeraldian/main/docs/demo.gif
 logo: https://emeraldian-tui.github.io/logo.png
 updated: '2026-08-09'
-repo_stars: 539
-repo_updated: "2026-10-22"
+repo_stars: 543
+repo_updated: "2026-10-23"
 repo_created: "2026-07-27"
 repo_release: "v0.8.0"
 repo_release_date: "2026-10-22"

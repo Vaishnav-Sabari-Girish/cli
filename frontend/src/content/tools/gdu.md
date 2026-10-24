@@ -34,7 +34,7 @@ tags:
 media: https://asciinema.org/a/382738
 logo: https://github.com/dundee/gdu/raw/master/gdu.png
 updated: '2026-07-19'
-repo_stars: 6143
+repo_stars: 6147
 repo_updated: "2026-10-21"
 repo_created: "2018-02-24"
 repo_release: "v5.38.0"
