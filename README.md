@@ -11,7 +11,7 @@
     </tr>
   </table>
 
-[![Tools](https://img.shields.io/badge/tools-252-f74c00)](https://cli.masoko.net)
+[![Tools](https://img.shields.io/badge/tools-253-f74c00)](https://cli.masoko.net)
 [![Website](https://img.shields.io/badge/website-cli.masoko.net-14151a)](https://cli.masoko.net)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](#contributing)
@@ -22,9 +22,9 @@
 
 <!-- TOOLS:START -->
 
-**252 tools** across **16 categories** — browse with screenshots, ratings and comments at [cli.masoko.net](https://cli.masoko.net).
+**253 tools** across **16 categories** — browse with screenshots, ratings and comments at [cli.masoko.net](https://cli.masoko.net).
 
-[File Management](#file-management) (17) · [Shell History](#shell-history) (3) · [Directory Listing](#directory-listing) (13) · [System Monitoring](#system-monitoring) (10) · [Productivity](#productivity) (22) · [Development Tools](#development-tools) (7) · [Networking](#networking) (26) · [Text Editors](#text-editors) (28) · [Media & Entertainment](#media--entertainment) (25) · [Security](#security) (6) · [DevOps & Cloud](#devops--cloud) (14) · [Data Processing](#data-processing) (30) · [Games & Fun](#games--fun) (8) · [AI](#ai) (8) · [Git](#git) (19) · [Utilities & Other](#utilities--other) (16)
+[File Management](#file-management) (17) · [Shell History](#shell-history) (3) · [Directory Listing](#directory-listing) (13) · [System Monitoring](#system-monitoring) (10) · [Productivity](#productivity) (22) · [Development Tools](#development-tools) (7) · [Networking](#networking) (26) · [Text Editors](#text-editors) (28) · [Media & Entertainment](#media--entertainment) (25) · [Security](#security) (6) · [DevOps & Cloud](#devops--cloud) (14) · [Data Processing](#data-processing) (30) · [Games & Fun](#games--fun) (8) · [AI](#ai) (8) · [Git](#git) (19) · [Utilities & Other](#utilities--other) (17)
 
 ### File Management
 
@@ -341,6 +341,7 @@
 
 | Name | Description | Language | ⭐ Stars | Links |
 |------|-------------|----------|---------|-------|
+| [aerc](https://aerc-mail.org/) | aerc is an email client for your terminal. | Go | – | [Repo](https://github.com/rjarry/aerc), [Website](https://aerc-mail.org/) |
 | [fnt](https://github.com/alexmyczko/fnt) | apt for fonts, the missing font manager for macOS/linux | Shell | 650 | [Repo](https://github.com/alexmyczko/fnt) |
 | [ghostty-config](https://github.com/Vitruves/ghostty-config) | TUI for Ghostty terminal customization | Go | 126 | [Repo](https://github.com/Vitruves/ghostty-config) |
 | [himalaya](https://pimalaya.org) | CLI to manage emails | Rust | 7.5k | [Repo](https://github.com/pimalaya/himalaya), [Website](https://pimalaya.org) |
