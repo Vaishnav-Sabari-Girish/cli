@@ -11,7 +11,7 @@
     </tr>
   </table>
 
-[![Tools](https://img.shields.io/badge/tools-250-f74c00)](https://cli.masoko.net)
+[![Tools](https://img.shields.io/badge/tools-251-f74c00)](https://cli.masoko.net)
 [![Website](https://img.shields.io/badge/website-cli.masoko.net-14151a)](https://cli.masoko.net)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](#contributing)
@@ -22,9 +22,9 @@
 
 <!-- TOOLS:START -->
 
-**250 tools** across **16 categories** — browse with screenshots, ratings and comments at [cli.masoko.net](https://cli.masoko.net).
+**251 tools** across **16 categories** — browse with screenshots, ratings and comments at [cli.masoko.net](https://cli.masoko.net).
 
-[File Management](#file-management) (17) · [Shell History](#shell-history) (3) · [Directory Listing](#directory-listing) (13) · [System Monitoring](#system-monitoring) (10) · [Productivity](#productivity) (22) · [Development Tools](#development-tools) (7) · [Networking](#networking) (26) · [Text Editors](#text-editors) (28) · [Media & Entertainment](#media--entertainment) (25) · [Security](#security) (6) · [DevOps & Cloud](#devops--cloud) (14) · [Data Processing](#data-processing) (29) · [Games & Fun](#games--fun) (8) · [AI](#ai) (8) · [Git](#git) (19) · [Utilities & Other](#utilities--other) (15)
+[File Management](#file-management) (17) · [Shell History](#shell-history) (3) · [Directory Listing](#directory-listing) (13) · [System Monitoring](#system-monitoring) (10) · [Productivity](#productivity) (22) · [Development Tools](#development-tools) (7) · [Networking](#networking) (26) · [Text Editors](#text-editors) (28) · [Media & Entertainment](#media--entertainment) (25) · [Security](#security) (6) · [DevOps & Cloud](#devops--cloud) (14) · [Data Processing](#data-processing) (30) · [Games & Fun](#games--fun) (8) · [AI](#ai) (8) · [Git](#git) (19) · [Utilities & Other](#utilities--other) (15)
 
 ### File Management
 
@@ -259,6 +259,7 @@
 | [bookokrat](https://bugzmanov.github.io/bookokrat) | A terminal EPUB / PDF Book Reader (+djvu) | Rust | 1.3k | [Repo](https://github.com/bugzmanov/bookokrat), [Website](https://bugzmanov.github.io/bookokrat) |
 | [cloc](https://github.com/AlDanial/cloc) | cloc counts blank lines, comment lines, and physical lines of source code in many programming… | Perl | 23.6k | [Repo](https://github.com/AlDanial/cloc) |
 | [csvlens](https://github.com/YS-L/csvlens) | Command line csv viewer | Rust | 4k | [Repo](https://github.com/YS-L/csvlens) |
+| [dbdelve](https://dbdelve.github.io/) | Fast and lightweight DB Client made in Rust and GPUI. | Rust | – | [Repo](https://github.com/ShayanAbbas1/dbdelve), [Website](https://dbdelve.github.io/) |
 | [difftastic](https://difftastic.wilfred.me.uk/) | a structural diff that understands syntax 🟥🟩 | Rust | 26.1k | [Repo](https://github.com/Wilfred/difftastic), [Website](https://difftastic.wilfred.me.uk/) |
 | [doxx](https://bgreenwell.github.io/doxx/) | Expose the contents of .docx files without leaving your terminal. Fast, safe, and smart — no Office… | Rust | 3.8k | [Repo](https://github.com/bgreenwell/doxx), [Website](https://bgreenwell.github.io/doxx/) |
 | [dyff](https://github.com/homeport/dyff) | /ˈdʏf/ - diff tool for YAML files, and sometimes JSON | Go | 1.9k | [Repo](https://github.com/homeport/dyff) |
