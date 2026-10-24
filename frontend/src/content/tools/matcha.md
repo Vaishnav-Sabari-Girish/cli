@@ -1,6 +1,6 @@
 ---
 name: matcha
-category: Utilities & Other
+category: Email
 short_description: >-
   A beautiful and functional email client for your terminal, built with Go and
   the charming Bubble Tea TUI library. Never leave your command l

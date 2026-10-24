@@ -1,6 +1,6 @@
 ---
 name: tidemail
-category: Utilities & Other
+category: Email
 short_description: TUI Key first email client
 description: >-
   TideMail is a fast, terminal-based (TUI) email client that features a unified
