@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { COLLECTIONS } from '../../lib/guides';
 import { pageTitle } from '../../lib/seo';
+import CollectionIcon from '../../components/CollectionIcon.astro';
 ---
 
 <BaseLayout
@@ -26,7 +27,7 @@ import { pageTitle } from '../../lib/seo';
 				<li>
 					<a href={`/collections/${guide.slug}/`}>
 						<span class="dir-head">
-							<span class="dir-name">{guide.slug}/</span>
+							<span class="dir-name"><CollectionIcon slug={guide.slug} />{guide.slug}/</span>
 							<span class="count">{guide.tools.length}</span>
 						</span>
 						<span class="dir-desc">{guide.intro}</span>

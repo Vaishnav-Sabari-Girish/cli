@@ -1561,3 +1561,9 @@ button[type='submit']:disabled {
 #feedback-status.error {
 	color: var(--accent-rust);
 }
+
+/* Collection line icons sit in the accent color next to the page heading. */
+.collection-icon {
+	color: var(--accent-rust);
+	vertical-align: -0.1em;
+}

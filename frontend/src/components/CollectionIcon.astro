@@ -1,0 +1,79 @@
+---
+// Line icons for /collections/, keyed by guide slug. Drawn on a 24x24 grid
+// with a 2px currentColor stroke so they pick up the surrounding text color
+// in both themes. An unknown slug falls back to a folder.
+interface Props {
+	slug: string;
+	size?: number;
+	class?: string;
+}
+
+const { slug, size = 16, class: className = 'lang-icon' } = Astro.props;
+
+const icons: Record<string, string> = {
+	// terminal window with a prompt
+	'modern-unix': `
+		<rect x="2.5" y="4" width="19" height="16" rx="2" />
+		<polyline points="6.5 9.5 9.5 12 6.5 14.5" />
+		<line x1="12" y1="15" x2="17" y2="15" />`,
+	// branch splitting off main and merging back
+	'tui-git-clients': `
+		<circle cx="6" cy="5" r="2" />
+		<circle cx="6" cy="19" r="2" />
+		<circle cx="18" cy="9" r="2" />
+		<line x1="6" y1="7" x2="6" y2="17" />
+		<path d="M18 11c0 4-6 3-11.2 6.5" />`,
+	// a large and a small sparkle
+	'ai-coding-agents': `
+		<path d="M10 3.5l1.6 4.4a2 2 0 0 0 1.2 1.2L17.2 10.7l-4.4 1.6a2 2 0 0 0-1.2 1.2L10 17.9l-1.6-4.4a2 2 0 0 0-1.2-1.2L2.8 10.7l4.4-1.6a2 2 0 0 0 1.2-1.2z" />
+		<path d="M18.5 15v5M16 17.5h5" />`,
+	// ship's wheel (helm)
+	'kubernetes-tuis': `
+		<circle cx="12" cy="12" r="6" />
+		<circle cx="12" cy="12" r="1.5" />
+		<path d="M12 2.5v8M12 13.5v8M2.5 12h8M13.5 12h8M5.3 5.3l5.6 5.6M13.1 13.1l5.6 5.6M18.7 5.3l-5.6 5.6M10.9 13.1l-5.6 5.6" />`,
+	// beamed pair of eighth notes
+	'terminal-music-players': `
+		<path d="M9 18V5.5l12-2.5v12.5" />
+		<circle cx="6" cy="18" r="3" />
+		<circle cx="18" cy="15.5" r="3" />
+		<line x1="9" y1="9.5" x2="21" y2="7" />`,
+	// curly braces around a data table
+	'json-csv-data-tools': `
+		<path d="M7 3.5H6a2 2 0 0 0-2 2v4a2.5 2.5 0 0 1-2 2.5 2.5 2.5 0 0 1 2 2.5v4a2 2 0 0 0 2 2h1" />
+		<path d="M17 3.5h1a2 2 0 0 1 2 2v4a2.5 2.5 0 0 0 2 2.5 2.5 2.5 0 0 0-2 2.5v4a2 2 0 0 1-2 2h-1" />
+		<line x1="8.5" y1="9" x2="15.5" y2="9" />
+		<line x1="8.5" y1="12" x2="15.5" y2="12" />
+		<line x1="8.5" y1="15" x2="13" y2="15" />`,
+	// traffic pulse over a baseline
+	'network-monitoring': `
+		<polyline points="2 12 6 12 9 5 13 19 16 9 18 12 22 12" />
+		<line x1="2" y1="21" x2="22" y2="21" />`,
+	// key
+	'ssh-tools': `
+		<circle cx="7.5" cy="15.5" r="4.5" />
+		<path d="M10.7 12.3L20 3M16.5 6.5l3 3M14 9l2 2" />`,
+	// the Markdown mark: M and a down arrow in a frame
+	'markdown-tools': `
+		<rect x="2" y="5" width="20" height="14" rx="2" />
+		<polyline points="5.5 15 5.5 9 8.5 12 11.5 9 11.5 15" />
+		<polyline points="15 12.5 17 15 19 12.5" />
+		<line x1="17" y1="9" x2="17" y2="15" />`,
+};
+
+const fallback = `<path d="M3 6.5a2 2 0 0 1 2-2h4l2 2.5h8a2 2 0 0 1 2 2V17.5a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z" />`;
+---
+
+<svg
+	class={className}
+	viewBox="0 0 24 24"
+	width={size}
+	height={size}
+	fill="none"
+	stroke="currentColor"
+	stroke-width="2"
+	stroke-linecap="round"
+	stroke-linejoin="round"
+	aria-hidden="true"
+	set:html={icons[slug] ?? fallback}
+/>

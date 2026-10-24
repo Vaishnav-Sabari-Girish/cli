@@ -5,6 +5,7 @@ import { getReservedSlugs } from '../lib/tag-filter';
 import { itemListLd, pageTitle } from '../lib/seo';
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ToolCard from './ToolCard.astro';
+import CollectionIcon from './CollectionIcon.astro';
 
 // Shared body of /alternatives/<slug>/ and /collections/<slug>/ — a curated,
 // unpaginated list of tool cards under a short intro.
@@ -29,7 +30,10 @@ const reservedSlugs = getReservedSlugs(allTools);
 	breadcrumb={[{ label: `${section}/`, href: `/${section}/` }, { label: guide.slug }]}
 >
 	<header class="hero">
-		<h1>{guide.title}</h1>
+		<h1>
+			{section === 'collections' && <CollectionIcon slug={guide.slug} size={28} class="lang-icon lang-icon-lg collection-icon" />}
+			{guide.title}
+		</h1>
 		<p class="entity-description">{guide.intro}</p>
 		<p class="tagline"># {tools.length} tools, most-starred first</p>
 	</header>
