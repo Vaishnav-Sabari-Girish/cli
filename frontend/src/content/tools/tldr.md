@@ -1,6 +1,6 @@
 ---
 name: tldr
-category: Utilities & Other
+category: Shell & Terminal
 short_description: Collaborative cheatsheets for console commands 📚.
 description: >-
   The tldr project provides a collection of community-maintained, simplified,

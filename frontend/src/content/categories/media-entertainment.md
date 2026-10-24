@@ -1,3 +1,3 @@
 ---
-description: Terminal-based music players, video players, image viewers, and streaming clients for enjoying media without leaving the command line.
+description: Terminal video players, media fetchers, ASCII maps, weather displays, and other visual eye candy for the command line.
 ---

@@ -1,6 +1,6 @@
 ---
 name: emeraldian
-category: Data Processing
+category: Notes & Documents
 short_description: >-
   A terminal UI for your Obsidian vault: live-preview notes, backlinks, images,
   a force-directed graph and an assistant

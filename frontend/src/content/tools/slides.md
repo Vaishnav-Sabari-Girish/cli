@@ -1,6 +1,6 @@
 ---
 name: slides
-category: Productivity
+category: Notes & Documents
 short_description: Terminal based presentation tool
 description: >-
   A terminal-based presentation tool written in Go.

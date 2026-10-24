@@ -1,6 +1,6 @@
 ---
 name: ripgrep
-category: Data Processing
+category: Search
 short_description: >-
   ripgrep recursively searches directories for a regex pattern while respecting
   your gitignore

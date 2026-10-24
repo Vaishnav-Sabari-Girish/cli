@@ -1,6 +1,6 @@
 ---
 name: gdu
-category: Directory Listing
+category: Disk Usage
 short_description: Fast disk usage analyzer with console interface written in Go
 description: >-
   gdu is a fast, interactive, disk usage analyzer for the terminal written in

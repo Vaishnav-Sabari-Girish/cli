@@ -1,6 +1,6 @@
 ---
 name: ygrep
-category: Data Processing
+category: Search
 short_description: A fast, local, indexed code search tool optimized for AI coding assistants.
 description: >-
   Indexes a codebase with Tantivy and answers searches from that index, so

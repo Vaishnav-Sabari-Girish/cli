@@ -1,6 +1,6 @@
 ---
 name: NoctaVox
-category: Media & Entertainment
+category: Music & Audio
 short_description: Local TUI Music Player
 description: >-
   A lightweight, Rust-powered TUI music player designed for local libraries and

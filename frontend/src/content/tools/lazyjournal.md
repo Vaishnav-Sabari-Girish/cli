@@ -1,6 +1,6 @@
 ---
 name: lazyjournal
-category: DevOps & Cloud
+category: Logs
 short_description: >-
   TUI for viewing logs from journald, auditd, file system, Docker and Podman
   containers, Compose stacks and Kubernetes pods with support for l

@@ -1,6 +1,6 @@
 ---
 name: metropolis
-category: Media & Entertainment
+category: System Monitoring
 short_description: >-
   A cyberpunk system monitor that transforms kernel metrics into a living
   terminal skyline.

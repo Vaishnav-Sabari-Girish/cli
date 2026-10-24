@@ -1,6 +1,6 @@
 ---
 name: flyline
-category: Productivity
+category: Shell & Terminal
 short_description: >-
   Flyline: a Bash plugin to replace readline for a modern line editing
   experience: syntax highlighting, agent integration, rich prompts, toolt

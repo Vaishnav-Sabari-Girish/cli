@@ -1,6 +1,6 @@
 ---
 name: spotatui
-category: Media & Entertainment
+category: Music & Audio
 short_description: >-
   A fast, standalone terminal music player in Rust: native Spotify streaming
   plus local, Subsonic, radio, and YouTube sources.

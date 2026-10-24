@@ -1,6 +1,6 @@
 ---
 name: igrep
-category: Data Processing
+category: Search
 short_description: Interactive Grep
 description: >-
   Runs grep (ripgrep's library) in the background, allows interactively pick its

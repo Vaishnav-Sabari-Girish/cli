@@ -1,6 +1,6 @@
 ---
 name: suvadu
-category: Shell History
+category: Shell & Terminal
 short_description: >-
   Shell history replacement with AI agent tracking and MCP server. Built in
   Rust, 100% local.

@@ -1,6 +1,6 @@
 ---
 name: cliflux
-category: Productivity
+category: Email & Messaging
 short_description: A terminal client for Miniflux RSS reader
 description: >-
   cliflux is a terminal-based UI client for the self-hosted Miniflux RSS reader,

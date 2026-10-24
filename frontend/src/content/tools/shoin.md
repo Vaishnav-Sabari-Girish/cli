@@ -1,6 +1,6 @@
 ---
 name: Shoin
-category: Text Editors
+category: Notes & Documents
 short_description: >-
   A no-clutter terminal Markdown editor. Modal editing, Obsidian-style live
   formatting, an iA Writer surface

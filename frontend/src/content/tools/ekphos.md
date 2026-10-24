@@ -1,6 +1,6 @@
 ---
 name: ekphos
-category: Text Editors
+category: Notes & Documents
 short_description: >-
   A lightweight, fast, terminal-based markdown research tool inspired by
   Obsidian

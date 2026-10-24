@@ -1,6 +1,6 @@
 ---
 name: payk
-category: Networking
+category: HTTP & API Clients
 short_description: Keyboard-first TUI HTTP client
 description: >-
   A fast, keyboard-first TUI HTTP client: it carries your requests and brings

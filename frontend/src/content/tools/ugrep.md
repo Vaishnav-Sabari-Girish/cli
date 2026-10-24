@@ -1,6 +1,6 @@
 ---
 name: ugrep
-category: Data Processing
+category: Search
 short_description: >-
   🔍 ugrep 7.8 file pattern searcher -- a user-friendly, faster, more capable
   grep replacement.

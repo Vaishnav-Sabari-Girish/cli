@@ -1,6 +1,6 @@
 ---
 name: wiremix
-category: Media & Entertainment
+category: Music & Audio
 short_description: Simple TUI audio mixer for PipeWire
 description: >-
   wiremix is a simple TUI audio mixer for PipeWire. You can use it to adjust

@@ -1,3 +1,3 @@
 ---
-description: Command-line build tools, debuggers, linters, and formatters that speed up everyday software development from the terminal.
+description: Command-line tools for everyday software development — code counters, structural diffs, hex viewers, benchmarking, regex testing, and terminal recorders.
 ---

@@ -1,6 +1,6 @@
 ---
 name: duf
-category: System Monitoring
+category: Disk Usage
 short_description: Disk Usage/Free Utility - a better 'df' alternative
 description: >-
   Duf is a modern, user-friendly, and colorful disk usage/free utility written

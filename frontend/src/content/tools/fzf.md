@@ -1,6 +1,6 @@
 ---
 name: fzf
-category: Productivity
+category: Shell & Terminal
 short_description: 🌸 A command-line fuzzy finder
 description: >-
   fzf is a general-purpose command-line fuzzy finder and an interactive terminal

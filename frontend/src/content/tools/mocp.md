@@ -1,6 +1,6 @@
 ---
 name: mocp
-category: Media & Entertainment
+category: Music & Audio
 short_description: Music On Console Player
 description: >-
   MOC (Music on Console) is a powerful, lightweight audio player for the

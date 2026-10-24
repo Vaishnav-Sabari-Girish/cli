@@ -1,6 +1,6 @@
 ---
 name: psmux
-category: Productivity
+category: Shell & Terminal
 short_description: >-
   Tmux on Windows Powershell - tmux for PowerShell, Windows Terminal, cmd.exe.
   Includes psmux, pmux, and tmux commands.

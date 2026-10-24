@@ -1,6 +1,6 @@
 ---
 name: rclone
-category: Utilities & Other
+category: File Management
 short_description: >-
   "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One
   Drive, Swift, Hubic, Wasabi, Google Cloud Storage, Azure Blob, Azur

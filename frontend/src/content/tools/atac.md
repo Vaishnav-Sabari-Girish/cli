@@ -1,6 +1,6 @@
 ---
 name: ATAC
-category: Networking
+category: HTTP & API Clients
 short_description: A simple API client (postman like) in your terminal
 description: >-
   ATAC is Arguably a Terminal API Client. It is based on well-known clients such

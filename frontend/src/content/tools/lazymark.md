@@ -1,6 +1,6 @@
 ---
 name: lazymark
-category: Text Editors
+category: Notes & Documents
 short_description: >-
   Lazy markdown notes, tasks and a Kanban board in your terminal. With a sleepy
   sloth.

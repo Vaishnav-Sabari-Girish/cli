@@ -1,6 +1,6 @@
 ---
 name: spotify-tui
-category: Media & Entertainment
+category: Music & Audio
 short_description: Spotify for the terminal written in Rust 🚀
 description: Spotify for the terminal written in Rust 🚀
 repository_url: https://github.com/Rigellute/spotify-tui

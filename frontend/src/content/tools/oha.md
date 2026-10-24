@@ -1,6 +1,6 @@
 ---
 name: oha
-category: Networking
+category: HTTP & API Clients
 short_description: Ohayou is a HTTP load generator inspired by rakyll/hey with tui animation.
 description: >-
   oha is a tiny program that sends some load to a web application and show

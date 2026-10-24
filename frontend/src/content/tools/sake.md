@@ -1,6 +1,6 @@
 ---
 name: sake
-category: Utilities & Other
+category: DevOps & Cloud
 short_description: 🤖 task runner for local and remote hosts
 description: >-
   sake is a command runner for local and remote hosts. You define servers and

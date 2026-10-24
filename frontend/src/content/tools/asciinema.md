@@ -1,6 +1,6 @@
 ---
 name: asciinema
-category: Media & Entertainment
+category: Development Tools
 short_description: Terminal session recorder, streamer and player 📹
 description: >-
   Asciinema is a lightweight terminal session recorder that captures and plays

@@ -1,6 +1,6 @@
 ---
 name: undo
-category: Utilities & Other
+category: Shell & Terminal
 short_description: Undo what the last shell command did to the filesystem
 description: >-
   Undo is a command-line tool that lets you seamlessly revert whatever changes

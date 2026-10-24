@@ -1,6 +1,6 @@
 ---
 name: cliamp
-category: Media & Entertainment
+category: Music & Audio
 short_description: cliamp - Terminal music player inspired by winamp
 description: >-
   cliamp is a retro, Winamp-inspired terminal music player written primarily in

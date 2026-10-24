@@ -1,6 +1,6 @@
 ---
 name: inshellisense
-category: Productivity
+category: Shell & Terminal
 short_description: IDE style command line auto complete
 description: >-
   inshellisense provides IDE style autocomplete for shells. It's a terminal

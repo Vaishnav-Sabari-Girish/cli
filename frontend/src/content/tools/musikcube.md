@@ -1,6 +1,6 @@
 ---
 name: musikcube
-category: Media & Entertainment
+category: Music & Audio
 short_description: >-
   a cross-platform, terminal-based music player, audio engine, metadata indexer,
   and server in c++

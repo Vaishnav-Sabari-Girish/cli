@@ -1,6 +1,6 @@
 ---
 name: hoard
-category: Productivity
+category: Shell & Terminal
 short_description: cli command organizer written in rust
 description: >-
   A command organizer lets you save commands that you often use, but are too

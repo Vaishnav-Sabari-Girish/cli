@@ -1,6 +1,6 @@
 ---
 name: AetherTune
-category: Media & Entertainment
+category: Music & Audio
 short_description: >-
   A terminal-based internet radio player with real-time audio visualization,
   built in Rust.

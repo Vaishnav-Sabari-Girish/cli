@@ -1,6 +1,6 @@
 ---
 name: macchina
-category: Utilities & Other
+category: System Monitoring
 short_description: A system information frontend with an emphasis on performance.
 description: >-
   macchina lets you view system information, like your kernel version, uptime,

@@ -1,6 +1,6 @@
 ---
 name: dyff
-category: Data Processing
+category: Development Tools
 short_description: /ˈdʏf/ - diff tool for YAML files, and sometimes JSON
 description: >-
   dyff is a specialized diff tool for YAML (and JSON) files that generates

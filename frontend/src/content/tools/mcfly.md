@@ -1,6 +1,6 @@
 ---
 name: mcfly
-category: Shell History
+category: Shell & Terminal
 short_description: Fly through your shell history. Great Scott!
 description: >-
   McFly replaces your default ctrl-r shell history search with an intelligent

@@ -1,6 +1,6 @@
 ---
 name: doxx
-category: Data Processing
+category: Notes & Documents
 short_description: >-
   Expose the contents of .docx files without leaving your terminal. Fast, safe,
   and smart — no Office required!

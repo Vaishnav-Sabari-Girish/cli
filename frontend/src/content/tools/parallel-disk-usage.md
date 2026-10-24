@@ -1,6 +1,6 @@
 ---
 name: parallel-disk-usage
-category: System Monitoring
+category: Disk Usage
 short_description: Highly parallelized, blazing fast directory tree analyzer
 description: >-
   pdu is a CLI program that renders a graphical chart for disk usages of files

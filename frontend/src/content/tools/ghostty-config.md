@@ -1,6 +1,6 @@
 ---
 name: ghostty-config
-category: Utilities & Other
+category: Shell & Terminal
 short_description: TUI for Ghostty terminal customization
 description: >-
   A terminal user interface (TUI) application written in Go for easily

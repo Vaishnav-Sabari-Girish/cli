@@ -1,6 +1,6 @@
 ---
 name: kew
-category: Media & Entertainment
+category: Music & Audio
 short_description: >-
   Music for the Shell. kew is an immersive and fast music player that allows you
   to listen to music with privacy.

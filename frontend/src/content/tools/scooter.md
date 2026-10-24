@@ -1,6 +1,6 @@
 ---
 name: scooter
-category: Text Editors
+category: Search
 short_description: Interactive find-and-replace in the terminal
 description: >-
   scooter is an interactive find-and-replace terminal UI app. By default it

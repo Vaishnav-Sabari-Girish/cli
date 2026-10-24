@@ -1,6 +1,6 @@
 ---
 name: spotify-player
-category: Media & Entertainment
+category: Music & Audio
 short_description: A Spotify player in the terminal with full feature parity
 description: >-
   spotify-player is a fast, highly configurable, and feature-rich terminal music

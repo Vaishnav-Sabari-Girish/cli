@@ -1,6 +1,6 @@
 ---
 name: lyrtui
-category: Media & Entertainment
+category: Music & Audio
 short_description: Fast and good looking TUI for Lyrion Music Server
 description: >-
   Browse and search your music library, internet radio, and installed streaming

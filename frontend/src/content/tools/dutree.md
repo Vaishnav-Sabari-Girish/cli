@@ -1,6 +1,6 @@
 ---
 name: dutree
-category: Directory Listing
+category: Disk Usage
 short_description: a tool to analyze file system usage written in Rust
 description: >-
   dutree is a fast, Rust-written command-line tool for analyzing disk usage that

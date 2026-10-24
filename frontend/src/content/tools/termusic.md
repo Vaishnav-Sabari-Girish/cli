@@ -1,6 +1,6 @@
 ---
 name: termusic
-category: Media & Entertainment
+category: Music & Audio
 short_description: Music Player TUI written in Rust
 description: Listen to music and podcasts freely as both in freedom and free of charge!
 repository_url: https://github.com/tramhao/termusic

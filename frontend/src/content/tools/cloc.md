@@ -1,6 +1,6 @@
 ---
 name: cloc
-category: Data Processing
+category: Development Tools
 short_description: >-
   cloc counts blank lines, comment lines, and physical lines of source code in
   many programming languages.

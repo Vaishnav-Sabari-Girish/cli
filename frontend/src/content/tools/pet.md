@@ -1,6 +1,6 @@
 ---
 name: pet
-category: Productivity
+category: Shell & Terminal
 short_description: Simple command-line snippet manager
 description: >-
   I have a hard time remembering complex command or ones that I rarely use.

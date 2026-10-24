@@ -1,6 +1,6 @@
 ---
 name: noodle
-category: Networking
+category: HTTP & API Clients
 short_description: A delicious REST client for your terminal
 description: >-
   Noodle is an HTTP client. As a TUI application, it can be used over SSH and

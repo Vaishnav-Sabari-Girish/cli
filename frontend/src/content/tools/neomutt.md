@@ -1,6 +1,6 @@
 ---
 name: neomutt
-category: Email
+category: Email & Messaging
 short_description: >-
   ✉️ A fast, highly configurable terminal email client with modern patches like
   a mailbox sidebar and integrated search.

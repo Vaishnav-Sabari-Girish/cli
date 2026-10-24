@@ -1,6 +1,6 @@
 ---
 name: archivemount
-category: Networking
+category: File Management
 short_description: A fuse filesystem for mounting archives in formats supported by libarchive.
 description: >-
   A FUSE-based filesystem implementation that allows you to mount compressed

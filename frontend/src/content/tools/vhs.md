@@ -1,6 +1,6 @@
 ---
 name: vhs
-category: Media & Entertainment
+category: Development Tools
 short_description: Your CLI home video recorder 📼
 description: >-
   Write terminal GIFs as code for integration testing and demoing your CLI

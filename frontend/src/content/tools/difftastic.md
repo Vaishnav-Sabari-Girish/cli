@@ -1,6 +1,6 @@
 ---
 name: difftastic
-category: Data Processing
+category: Development Tools
 short_description: a structural diff that understands syntax 🟥🟩
 description: >-
   Difftastic is a structural diff tool that compares files based on their syntax

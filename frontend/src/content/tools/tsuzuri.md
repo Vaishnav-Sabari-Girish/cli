@@ -1,6 +1,6 @@
 ---
 name: tsuzuri
-category: Text Editors
+category: Notes & Documents
 short_description: >-
   Block-based notebook for the terminal. Plain Markdown files, Vim editing, live
   preview, boards, calendars and 96 themes.

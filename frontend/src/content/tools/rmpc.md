@@ -1,6 +1,6 @@
 ---
 name: rmpc
-category: Media & Entertainment
+category: Music & Audio
 short_description: >-
   A modern, configurable, terminal based MPD Client with album art support via
   various terminal image protocols

@@ -1,6 +1,6 @@
 ---
 name: ctop
-category: System Monitoring
+category: DevOps & Cloud
 short_description: Top-like interface for container metrics
 description: >-
   ctop is a command-line tool that provides a concise, top-like real-time

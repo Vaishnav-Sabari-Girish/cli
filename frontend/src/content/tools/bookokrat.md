@@ -1,6 +1,6 @@
 ---
 name: bookokrat
-category: Data Processing
+category: Notes & Documents
 short_description: A terminal EPUB / PDF Book Reader (+djvu)
 description: >-
   Terminal EPUB/PDF/DJVU reader focused on speed, smooth navigation, and

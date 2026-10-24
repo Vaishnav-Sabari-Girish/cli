@@ -1,6 +1,6 @@
 ---
 name: dust
-category: Directory Listing
+category: Disk Usage
 short_description: A more intuitive version of du in rust
 description: >-
   Dust is an intuitive, Rust-based alternative to the traditional du command for

@@ -1,6 +1,6 @@
 ---
 name: Myx
-category: Media & Entertainment
+category: Music & Audio
 short_description: Spotify player for the terminal. With reactive themes.
 description: >-
   Myx is a lightweight terminal-based Spotify client built in Rust, featuring a

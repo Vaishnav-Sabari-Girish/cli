@@ -1,3 +1,3 @@
 ---
-description: Command-line tools for parsing, transforming, filtering, and visualizing structured data — JSON, CSV, YAML, and logs — right in the terminal.
+description: Command-line tools for querying, transforming, and exploring structured data — JSON, CSV, YAML, spreadsheets, and databases — right in the terminal.
 ---

@@ -1,6 +1,6 @@
 ---
 name: himalaya
-category: Email
+category: Email & Messaging
 short_description: CLI to manage emails
 description: >-
   Himalaya is a fast, lightweight command-line tool written in Rust for managing

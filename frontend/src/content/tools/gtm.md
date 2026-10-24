@@ -1,6 +1,6 @@
 ---
 name: gtm
-category: Media & Entertainment
+category: Music & Audio
 short_description: 📻 gtm(d) is a feature rich terminal audio player.
 description: >-
   A feature-rich, interactive terminal audio player built for music lovers, it

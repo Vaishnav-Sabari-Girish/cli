@@ -1,6 +1,6 @@
 ---
 name: glow
-category: Productivity
+category: Notes & Documents
 short_description: Render markdown on the CLI, with pizzazz! 💅🏻
 description: >-
   Glow is a terminal based markdown reader designed from the ground up to bring

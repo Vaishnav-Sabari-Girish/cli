@@ -1,6 +1,6 @@
 ---
 name: byobu
-category: Productivity
+category: Shell & Terminal
 short_description: text window manager, shell multiplexer, integrated DevOps environment
 description: >-
   Byobu is an open-source, text-based window manager and terminal multiplexer

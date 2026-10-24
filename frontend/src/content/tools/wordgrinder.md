@@ -1,6 +1,6 @@
 ---
 name: wordgrinder
-category: Text Editors
+category: Notes & Documents
 short_description: >-
   A word processor which gets the hell out of your way and lets you get some
   work done.

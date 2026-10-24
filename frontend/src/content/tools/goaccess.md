@@ -1,6 +1,6 @@
 ---
 name: goaccess
-category: Data Processing
+category: Logs
 short_description: >-
   GoAccess is a real-time web log analyzer and interactive viewer that runs in a
   terminal in *nix systems or through your browser.

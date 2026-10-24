@@ -1,6 +1,6 @@
 ---
 name: whyd
-category: System Monitoring
+category: Logs
 short_description: >-
   Find out why your Linux PC froze, crashed or shut down: whyd reads the journal
   of the previous boot and tells you in one screen.

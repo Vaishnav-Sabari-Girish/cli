@@ -1,6 +1,6 @@
 ---
 name: levi
-category: Git
+category: Search
 short_description: >-
   The fastest blade for your git history. Fuzzy search for you, plain text for
   your agents.

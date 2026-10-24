@@ -1,3 +1,3 @@
 ---
-description: Command-line tools for copying, moving, renaming, searching, and organizing files and directories quickly and efficiently.
+description: Terminal file managers and tools for browsing, copying, moving, mounting, and syncing files and directories — locally and in the cloud.
 ---

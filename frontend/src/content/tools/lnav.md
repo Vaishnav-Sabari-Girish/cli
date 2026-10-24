@@ -1,6 +1,6 @@
 ---
 name: lnav
-category: Data Processing
+category: Logs
 short_description: Log file navigator
 description: >-
   lnav (The Logfile Navigator) is an advanced, terminal-based log file viewer

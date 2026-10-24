@@ -1,6 +1,6 @@
 ---
 name: rayomd
-category: Data Processing
+category: Notes & Documents
 short_description: >-
   Markdown to PDF in under a millisecond: one small native binary, no browser,
   LaTeX or Pandoc.

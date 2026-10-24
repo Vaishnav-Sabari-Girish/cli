@@ -1,6 +1,6 @@
 ---
 name: rust-stakeholder
-category: Media & Entertainment
+category: Games & Fun
 short_description: >-
   Generate impressive-looking terminal output to look busy when stakeholders
   walk by

@@ -1,6 +1,6 @@
 ---
 name: aerc
-category: Email
+category: Email & Messaging
 short_description: aerc is an email client for your terminal.
 description: >-
   A modern, TUI-based terminal email client featuring a tabbed interface,

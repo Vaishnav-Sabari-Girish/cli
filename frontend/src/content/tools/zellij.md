@@ -1,6 +1,6 @@
 ---
 name: zellij
-category: Productivity
+category: Shell & Terminal
 short_description: A terminal workspace with batteries included
 description: >-
   Zellij is a workspace aimed at developers, ops-oriented people and anyone who

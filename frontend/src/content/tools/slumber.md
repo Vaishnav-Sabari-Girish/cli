@@ -1,6 +1,6 @@
 ---
 name: slumber
-category: Networking
+category: HTTP & API Clients
 short_description: Terminal-based HTTP/REST client
 description: >-
   Slumber is a TUI (terminal user interface) HTTP client. Define, execute, and

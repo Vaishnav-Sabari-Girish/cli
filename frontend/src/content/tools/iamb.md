@@ -1,6 +1,6 @@
 ---
 name: iamb
-category: Utilities & Other
+category: Email & Messaging
 short_description: A Matrix client for Vim addicts
 description: >-
   iamb is a terminal-based Matrix chat client designed specifically for Vim

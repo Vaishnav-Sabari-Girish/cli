@@ -1,6 +1,6 @@
 ---
 name: posting
-category: Networking
+category: HTTP & API Clients
 short_description: The modern API client that lives in your terminal.
 description: >-
   Posting is a modern, feature-rich HTTP/API client built in Python using the
