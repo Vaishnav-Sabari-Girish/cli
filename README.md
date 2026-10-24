@@ -22,9 +22,9 @@
 
 <!-- TOOLS:START -->
 
-**253 tools** across **16 categories** — browse with screenshots, ratings and comments at [cli.masoko.net](https://cli.masoko.net).
+**253 tools** across **17 categories** — browse with screenshots, ratings and comments at [cli.masoko.net](https://cli.masoko.net).
 
-[File Management](#file-management) (17) · [Shell History](#shell-history) (3) · [Directory Listing](#directory-listing) (13) · [System Monitoring](#system-monitoring) (10) · [Productivity](#productivity) (22) · [Development Tools](#development-tools) (7) · [Networking](#networking) (26) · [Text Editors](#text-editors) (28) · [Media & Entertainment](#media--entertainment) (25) · [Security](#security) (6) · [DevOps & Cloud](#devops--cloud) (14) · [Data Processing](#data-processing) (30) · [Games & Fun](#games--fun) (8) · [AI](#ai) (8) · [Git](#git) (19) · [Utilities & Other](#utilities--other) (17)
+[File Management](#file-management) (17) · [Shell History](#shell-history) (3) · [Directory Listing](#directory-listing) (13) · [System Monitoring](#system-monitoring) (10) · [Productivity](#productivity) (22) · [Development Tools](#development-tools) (7) · [Networking](#networking) (26) · [Email](#email) (5) · [Text Editors](#text-editors) (28) · [Media & Entertainment](#media--entertainment) (25) · [Security](#security) (6) · [DevOps & Cloud](#devops--cloud) (14) · [Data Processing](#data-processing) (30) · [Games & Fun](#games--fun) (8) · [AI](#ai) (8) · [Git](#git) (19) · [Utilities & Other](#utilities--other) (12)
 
 ### File Management
 
@@ -158,6 +158,16 @@
 | [wlctl](https://github.com/aashish-thapa/wlctl) | 🛜 TUI for managing wifi/ethernet/vpn on Linux with Network Manager | Rust | 188 | [Repo](https://github.com/aashish-thapa/wlctl) |
 | [YScan](https://yetidevworks.com/yscan) | A TUI-first network scanner with ARP, mDNS, and SSDP discovery. | Rust | 11 | [Repo](https://github.com/yetidevworks/yscan), [Website](https://yetidevworks.com/yscan) |
 | [YTunnel](https://yetidevworks.com/ytunnel) | A TUI-first CLI for managing Cloudflare Tunnels with custom domains. | Rust | 59 | [Repo](https://github.com/yetidevworks/ytunnel), [Website](https://yetidevworks.com/ytunnel) |
+
+### Email
+
+| Name | Description | Language | ⭐ Stars | Links |
+|------|-------------|----------|---------|-------|
+| [aerc](https://aerc-mail.org/) | aerc is an email client for your terminal. | Go | – | [Repo](https://github.com/rjarry/aerc), [Website](https://aerc-mail.org/) |
+| [himalaya](https://pimalaya.org) | CLI to manage emails | Rust | 7.5k | [Repo](https://github.com/pimalaya/himalaya), [Website](https://pimalaya.org) |
+| [matcha](https://matcha.email) | A beautiful and functional email client for your terminal, built with Go and the charming Bubble… | Go | 1.1k | [Repo](https://github.com/floatpane/matcha), [Website](https://matcha.email) |
+| [neomutt](https://neomutt.org/) | ✉️ A fast, highly configurable terminal email client with modern patches like a mailbox sidebar and… | C | – | [Repo](https://github.com/neomutt/neomutt), [Website](https://neomutt.org/) |
+| [tidemail](https://github.com/allisonhere/tidemail) | TUI Key first email client | Go | 82 | [Repo](https://github.com/allisonhere/tidemail) |
 
 ### Text Editors
 
@@ -341,21 +351,16 @@
 
 | Name | Description | Language | ⭐ Stars | Links |
 |------|-------------|----------|---------|-------|
-| [aerc](https://aerc-mail.org/) | aerc is an email client for your terminal. | Go | – | [Repo](https://github.com/rjarry/aerc), [Website](https://aerc-mail.org/) |
 | [fnt](https://github.com/alexmyczko/fnt) | apt for fonts, the missing font manager for macOS/linux | Shell | 650 | [Repo](https://github.com/alexmyczko/fnt) |
 | [ghostty-config](https://github.com/Vitruves/ghostty-config) | TUI for Ghostty terminal customization | Go | 126 | [Repo](https://github.com/Vitruves/ghostty-config) |
-| [himalaya](https://pimalaya.org) | CLI to manage emails | Rust | 7.5k | [Repo](https://github.com/pimalaya/himalaya), [Website](https://pimalaya.org) |
 | [iamb](https://iamb.chat) | A Matrix client for Vim addicts | Rust | 1.3k | [Repo](https://github.com/ulyssa/iamb), [Website](https://iamb.chat) |
 | [linecast](https://terminaltrove.com/linecast/) | Weather, tides, the sun, the moon, and maps, in your terminal. The Old Farmer's Almanac meets… | Python | 641 | [Repo](https://github.com/ashuttl/linecast), [Website](https://terminaltrove.com/linecast/) |
 | [macchina](https://crates.io/crates/macchina) | A system information frontend with an emphasis on performance. | Rust | 2k | [Repo](https://github.com/Macchina-CLI/macchina), [Website](https://crates.io/crates/macchina) |
-| [matcha](https://matcha.email) | A beautiful and functional email client for your terminal, built with Go and the charming Bubble… | Go | 1.1k | [Repo](https://github.com/floatpane/matcha), [Website](https://matcha.email) |
 | [miru](https://blog.vaishnavs.is-a.dev/miru/) | Zooming daemon for wayland | C | 11 | [Repo](https://codeberg.org/Vaishnav-Sabari-Girish/miru), [Website](https://blog.vaishnavs.is-a.dev/miru/) |
 | [moji](https://moji.micr.dev/docs) | find and download fonts from the terminal | Go | 257 | [Repo](https://github.com/Microck/moji), [Website](https://moji.micr.dev/docs) |
-| [neomutt](https://neomutt.org/) | ✉️ A fast, highly configurable terminal email client with modern patches like a mailbox sidebar and… | C | – | [Repo](https://github.com/neomutt/neomutt), [Website](https://neomutt.org/) |
 | [rclone](https://rclone.org) | "rsync for cloud storage" - Google Drive, S3, Dropbox, Backblaze B2, One Drive, Swift, Hubic,… | Go | 60.5k | [Repo](https://github.com/rclone/rclone), [Website](https://rclone.org) |
 | [sake](https://sakecli.com) | 🤖 task runner for local and remote hosts | Go | 752 | [Repo](https://github.com/alajmo/sake), [Website](https://sakecli.com) |
 | [sauva](https://lusingander.github.io/sauva/) | Terminal Unicode Explorer 🪄 | Rust | 102 | [Repo](https://github.com/lusingander/sauva), [Website](https://lusingander.github.io/sauva/) |
-| [tidemail](https://github.com/allisonhere/tidemail) | TUI Key first email client | Go | 82 | [Repo](https://github.com/allisonhere/tidemail) |
 | [tldr](https://tldr.sh) | Collaborative cheatsheets for console commands 📚. | Markdown | 64k | [Repo](https://github.com/tldr-pages/tldr), [Website](https://tldr.sh) |
 | [undo](https://undo.edaywalid.com) | Undo what the last shell command did to the filesystem | Go | 403 | [Repo](https://github.com/edaywalid/undo), [Website](https://undo.edaywalid.com) |
 
