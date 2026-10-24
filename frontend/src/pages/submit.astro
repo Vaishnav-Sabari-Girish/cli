@@ -1,11 +1,25 @@
 ---
 import ToolForm from '../components/ToolForm.astro';
 import BaseLayout from '../layouts/BaseLayout.astro';
+import { renderBadge } from '../lib/badge';
 ---
 
 <BaseLayout title="Submit a tool — The Terminal Index" command="submit --new" backHref="/" noindex>
 	<h1>Submit a tool</h1>
 	<p class="form-note">Sign in with GitHub to submit a tool. Submitting opens a pull request from your own fork.</p>
+
+	<aside class="submit-badge-info">
+		<h2>Badge &amp; verified listing</h2>
+		<p>
+			Once your tool is listed, its page offers a README badge (Markdown and HTML snippets):
+		</p>
+		<p class="badge-preview" set:html={renderBadge('Your tool')} />
+		<p>
+			Listings whose README embeds the badge or links to their page are marked
+			<span class="badge-verified">✓ verified</span> and ranked first on category, tag and language pages.
+			READMEs are checked once a day.
+		</p>
+	</aside>
 
 	<section id="signed-out">
 		<button id="sign-in-btn" type="button">Sign in with GitHub</button>

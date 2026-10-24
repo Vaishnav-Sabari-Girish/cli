@@ -11,6 +11,7 @@ export const CATEGORIES = [
 	'Productivity',
 	'Development Tools',
 	'Networking',
+	'Email',
 	'Text Editors',
 	'Media & Entertainment',
 	'Security',

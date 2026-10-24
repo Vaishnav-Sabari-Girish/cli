@@ -38,8 +38,8 @@ tags:
 media: https://cli.masoko.net/uploads/snips-sh/media.gif
 logo: https://snips.sh/assets/img/logo.png
 updated: '2026-07-18'
-repo_stars: 1323
-repo_updated: "2026-10-01"
+repo_stars: 1327
+repo_updated: "2026-10-24"
 repo_created: "2023-01-21"
 repo_release: "v0.14.1"
 repo_release_date: "2026-09-08"

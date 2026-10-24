@@ -1,6 +1,6 @@
 ---
 name: matcha
-category: Utilities & Other
+category: Email
 short_description: >-
   A beautiful and functional email client for your terminal, built with Go and
   the charming Bubble Tea TUI library. Never leave your command l
@@ -57,7 +57,7 @@ media: >-
   https://raw.githubusercontent.com/floatpane/matcha/master/public/assets/demo.gif
 logo: https://matcha.email/assets/logo-transparent.png
 updated: '2026-10-20'
-repo_stars: 1142
+repo_stars: 1144
 repo_updated: "2026-10-19"
 repo_created: "2025-07-28"
 repo_release: "v1.1.0"
