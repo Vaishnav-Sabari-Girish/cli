@@ -11,7 +11,7 @@
     </tr>
   </table>
 
-[![Tools](https://img.shields.io/badge/tools-255-f74c00)](https://cli.masoko.net)
+[![Tools](https://img.shields.io/badge/tools-256-f74c00)](https://cli.masoko.net)
 [![Website](https://img.shields.io/badge/website-cli.masoko.net-14151a)](https://cli.masoko.net)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](#contributing)
@@ -22,9 +22,9 @@
 
 <!-- TOOLS:START -->
 
-**255 tools** across **23 categories** — browse with screenshots, ratings and comments at [cli.masoko.net](https://cli.masoko.net).
+**256 tools** across **23 categories** — browse with screenshots, ratings and comments at [cli.masoko.net](https://cli.masoko.net).
 
-[File Management](#file-management) (19) · [Directory Listing](#directory-listing) (9) · [Disk Usage](#disk-usage) (5) · [Shell & Terminal](#shell--terminal) (16) · [Search](#search) (6) · [System Monitoring](#system-monitoring) (8) · [Productivity](#productivity) (10) · [Notes & Documents](#notes--documents) (12) · [Development Tools](#development-tools) (12) · [HTTP & API Clients](#http--api-clients) (6) · [Git](#git) (18) · [Networking](#networking) (21) · [Email & Messaging](#email--messaging) (7) · [Text Editors](#text-editors) (22) · [Music & Audio](#music--audio) (15) · [Media & Entertainment](#media--entertainment) (6) · [Security](#security) (6) · [DevOps & Cloud](#devops--cloud) (15) · [Data Processing](#data-processing) (17) · [Logs](#logs) (4) · [Games & Fun](#games--fun) (8) · [AI](#ai) (8) · [Utilities & Other](#utilities--other) (5)
+[File Management](#file-management) (19) · [Directory Listing](#directory-listing) (9) · [Disk Usage](#disk-usage) (5) · [Shell & Terminal](#shell--terminal) (16) · [Search](#search) (6) · [System Monitoring](#system-monitoring) (8) · [Productivity](#productivity) (10) · [Notes & Documents](#notes--documents) (12) · [Development Tools](#development-tools) (12) · [HTTP & API Clients](#http--api-clients) (6) · [Git](#git) (18) · [Networking](#networking) (22) · [Email & Messaging](#email--messaging) (7) · [Text Editors](#text-editors) (22) · [Music & Audio](#music--audio) (15) · [Media & Entertainment](#media--entertainment) (6) · [Security](#security) (6) · [DevOps & Cloud](#devops--cloud) (15) · [Data Processing](#data-processing) (17) · [Logs](#logs) (4) · [Games & Fun](#games--fun) (8) · [AI](#ai) (8) · [Utilities & Other](#utilities--other) (5)
 
 ### File Management
 
@@ -211,6 +211,7 @@
 | [dnsglobe](https://github.com/514-labs/dnsglobe) | Global DNS propagation checker TUI — watch a DNS record propagate across 34 public resolvers… | Rust | 1.3k | [Repo](https://github.com/514-labs/dnsglobe) |
 | [dssh](https://dssh.grolmes.com) | The dead-simple SSH connection manager. CLI & TUI. | Go | 88 | [Repo](https://github.com/madLinux7/dssh), [Website](https://dssh.grolmes.com) |
 | [flow](https://github.com/programmersd21/flow) | 🌊 see your network breathe | Go | 460 | [Repo](https://github.com/programmersd21/flow) |
+| [impala](https://github.com/pythops/impala) | 🛜 TUI for managing wifi on Linux | Rust | – | [Repo](https://github.com/pythops/impala) |
 | [kyanos](https://kyanos.io) | Kyanos is a networking analysis tool using eBPF. It can visualize the time packets spend in the… | C | 5.1k | [Repo](https://github.com/hengyoush/kyanos), [Website](https://kyanos.io) |
 | [lsoff](https://github.com/yutat23/lsoff) | CLI / TUI that lists listening TCP/UDP ports | Go | 256 | [Repo](https://github.com/yutat23/lsoff) |
 | [netwatch](https://www.netwatchlabs.com/labs/netwatch) | Real-time network diagnostics in your terminal. One command, zero config, instant visibility. | Rust | 3.5k | [Repo](https://github.com/matthart1983/netwatch), [Website](https://www.netwatchlabs.com/labs/netwatch) |
