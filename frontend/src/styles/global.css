@@ -1875,7 +1875,7 @@ button[type='submit']:disabled {
 
 .tile-hero {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	gap: 1.25rem;
 }
 
