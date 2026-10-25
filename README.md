@@ -209,7 +209,7 @@
 | [bmon](http://jafaral.github.io/bmon/) | bandwidth monitor and rate estimator | C | 1.4k | [Repo](https://github.com/Jafaral/bmon), [Website](http://jafaral.github.io/bmon/) |
 | [ctty](https://github.com/zsuroy/ctty) | A lightweight, all-in-one connection manager — SSH, Serial, SFTP, Telnet, FTP, WebDAV and S3 in a… | Go | 254 | [Repo](https://github.com/zsuroy/ctty) |
 | [dnsglobe](https://github.com/514-labs/dnsglobe) | Global DNS propagation checker TUI — watch a DNS record propagate across 34 public resolvers… | Rust | 1.3k | [Repo](https://github.com/514-labs/dnsglobe) |
-| [doggo](https://doggo.mrkaran.dev/) | :dog: Command-line DNS Client for Humans. Written in Golang | Go | 4.5k | [Repo](https://github.com/mr-karan/doggo), [Website](https://doggo.mrkaran.dev/) |
+| [doggo](https://doggo.mrkaran.dev/) | 🐶 Command-line DNS Client for Humans. Written in Golang | Go | 4.5k | [Repo](https://github.com/mr-karan/doggo), [Website](https://doggo.mrkaran.dev/) |
 | [dssh](https://dssh.grolmes.com) | The dead-simple SSH connection manager. CLI & TUI. | Go | 88 | [Repo](https://github.com/madLinux7/dssh), [Website](https://dssh.grolmes.com) |
 | [flow](https://github.com/programmersd21/flow) | 🌊 see your network breathe | Go | 460 | [Repo](https://github.com/programmersd21/flow) |
 | [impala](https://github.com/pythops/impala) | 🛜 TUI for managing wifi on Linux | Rust | 2.9k | [Repo](https://github.com/pythops/impala) |
