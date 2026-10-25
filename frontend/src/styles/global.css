@@ -922,7 +922,7 @@ a.page-num:hover {
 
 .man-header {
 	display: flex;
-	align-items: center;
+	align-items: flex-start;
 	gap: 1rem;
 	margin-bottom: 2rem;
 }
