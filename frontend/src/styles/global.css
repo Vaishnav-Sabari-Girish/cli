@@ -1878,3 +1878,12 @@ button[type='submit']:disabled {
 		transition: none;
 	}
 }
+
+#submit-success-message {
+	margin: 0.6rem 0 1.5rem;
+}
+
+#submit-success-message::before {
+	content: '$ ';
+	color: var(--accent-green);
+}

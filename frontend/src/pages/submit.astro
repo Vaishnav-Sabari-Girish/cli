@@ -6,7 +6,11 @@ import { renderBadge } from '../lib/badge';
 
 <BaseLayout title="Submit a tool — The Terminal Index" command="submit --new" backHref="/" noindex>
 	<h1>Submit a tool</h1>
-	<p class="form-note">Sign in with GitHub to submit a tool. Submitting opens a pull request from your own fork.</p>
+	<p class="form-note" id="submit-intro">Sign in with GitHub to submit a tool. Submitting opens a pull request from your own fork.</p>
+
+	<section id="submit-success" hidden>
+		<p id="submit-success-message" role="status"></p>
+	</section>
 
 	<aside class="submit-badge-info">
 		<h2>Badge &amp; verified listing</h2>
@@ -34,6 +38,11 @@ import { renderBadge } from '../lib/badge';
 		<p id="form-status" role="status"></p>
 	</section>
 
+	<nav id="submit-next" class="browse-links" hidden>
+		<a href="/submit/">Submit another listing</a>
+		<a href="/">Back to the home page</a>
+	</nav>
+
 	<script>
 		import { getStoredToken, redirectToGitHubSignIn, signOut, fetchGitHubUser } from '../lib/github-auth';
 		import { fetchRepoAutofill } from '../lib/github-repo';
@@ -58,6 +67,10 @@ import { renderBadge } from '../lib/badge';
 		const installationRows = document.getElementById('installation-rows') as HTMLElement;
 		const addInstallationRowBtn = document.getElementById('add-installation-row') as HTMLButtonElement;
 		const submitBtn = form.querySelector('button[type="submit"]') as HTMLButtonElement;
+		const submitIntro = document.getElementById('submit-intro') as HTMLElement;
+		const submitSuccess = document.getElementById('submit-success') as HTMLElement;
+		const submitSuccessMessage = document.getElementById('submit-success-message') as HTMLElement;
+		const submitNext = document.getElementById('submit-next') as HTMLElement;
 		const previewDialog = document.getElementById('tool-preview-dialog') as HTMLDialogElement;
 
 		initInstallationRows(installationRows, addInstallationRowBtn);
@@ -125,9 +138,16 @@ import { renderBadge } from '../lib/badge';
 				link.target = '_blank';
 				link.rel = 'noopener';
 				link.textContent = 'View your pull request';
-				formStatus.replaceChildren('Submitted! ', link, '.');
+				submitSuccessMessage.replaceChildren('Submitted! ', link, '.');
 				form.reset();
 				resetInstallationRows(installationRows);
+				formStatus.textContent = '';
+				// Leave only the badge info plus next-step links on screen.
+				submitIntro.hidden = true;
+				signedInSection.hidden = true;
+				submitSuccess.hidden = false;
+				submitNext.hidden = false;
+				window.scrollTo({ top: 0 });
 			} catch (error) {
 				formStatus.textContent = error instanceof Error ? error.message : 'Submission failed.';
 			} finally {
