@@ -609,23 +609,6 @@ textarea {
 	text-decoration: none;
 }
 
-/* "selected line" marker in the gutter, like a cursor in a file picker */
-.tool-card > a::before {
-	content: '▸';
-	position: absolute;
-	left: -1.1rem;
-	top: 0.85rem;
-	color: var(--accent-green);
-	line-height: 1.6rem;
-	opacity: 0;
-	transition: opacity 0.1s ease;
-}
-
-.tool-card > a:hover::before,
-.tool-card > a:focus-visible::before {
-	opacity: 1;
-}
-
 .tool-name {
 	display: flex;
 	align-items: flex-start;
@@ -1635,10 +1618,6 @@ button[type='submit']:disabled {
 	.term {
 		min-height: 100vh;
 		min-height: 100dvh;
-	}
-
-	.tool-card > a::before {
-		content: none;
 	}
 
 	/* search + "filters" toggle on one row; the selects fold out beneath */
