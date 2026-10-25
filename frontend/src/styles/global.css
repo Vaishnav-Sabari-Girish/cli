@@ -996,6 +996,10 @@ a.chip:hover {
 	margin-bottom: 2rem;
 }
 
+#tool-grid + .man-section {
+	margin-top: 2.5rem;
+}
+
 .man-section h2 {
 	font-family: var(--font-pixel);
 	font-size: 8px;
