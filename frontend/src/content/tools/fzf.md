@@ -41,12 +41,13 @@ tags:
   - unix
   - vim
   - zsh
-media: https://raw.githubusercontent.com/junegunn/i/master/fzf-preview.png
+media: https://junegunn.github.io/fzf/images/fzf.gif
 logo: https://cli.masoko.net/uploads/fzf/logo.webp
-updated: '2026-07-11'
+updated: '2026-10-25'
+comments: []
 repo_stars: 83779
-repo_updated: "2026-10-25"
-repo_created: "2013-10-23"
-repo_release: "v0.74.5"
-repo_release_date: "2026-10-11"
+repo_updated: '2026-10-25'
+repo_created: '2013-10-23'
+repo_release: v0.74.5
+repo_release_date: '2026-10-11'
 ---
