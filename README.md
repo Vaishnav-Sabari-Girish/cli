@@ -11,7 +11,7 @@
     </tr>
   </table>
 
-[![Tools](https://img.shields.io/badge/tools-257-f74c00)](https://cli.masoko.net)
+[![Tools](https://img.shields.io/badge/tools-258-f74c00)](https://cli.masoko.net)
 [![Website](https://img.shields.io/badge/website-cli.masoko.net-14151a)](https://cli.masoko.net)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](#contributing)
@@ -22,9 +22,9 @@
 
 <!-- TOOLS:START -->
 
-**257 tools** across **23 categories** — browse with screenshots, ratings and comments at [cli.masoko.net](https://cli.masoko.net).
+**258 tools** across **23 categories** — browse with screenshots, ratings and comments at [cli.masoko.net](https://cli.masoko.net).
 
-[File Management](#file-management) (19) · [Directory Listing](#directory-listing) (9) · [Disk Usage](#disk-usage) (5) · [Shell & Terminal](#shell--terminal) (16) · [Search](#search) (6) · [System Monitoring](#system-monitoring) (8) · [Productivity](#productivity) (10) · [Notes & Documents](#notes--documents) (12) · [Development Tools](#development-tools) (12) · [HTTP & API Clients](#http--api-clients) (6) · [Git](#git) (18) · [Networking](#networking) (23) · [Email & Messaging](#email--messaging) (7) · [Text Editors](#text-editors) (22) · [Music & Audio](#music--audio) (15) · [Media & Entertainment](#media--entertainment) (6) · [Security](#security) (6) · [DevOps & Cloud](#devops--cloud) (15) · [Data Processing](#data-processing) (17) · [Logs](#logs) (4) · [Games & Fun](#games--fun) (8) · [AI](#ai) (8) · [Utilities & Other](#utilities--other) (5)
+[File Management](#file-management) (19) · [Directory Listing](#directory-listing) (9) · [Disk Usage](#disk-usage) (5) · [Shell & Terminal](#shell--terminal) (16) · [Search](#search) (6) · [System Monitoring](#system-monitoring) (8) · [Productivity](#productivity) (10) · [Notes & Documents](#notes--documents) (12) · [Development Tools](#development-tools) (12) · [HTTP & API Clients](#http--api-clients) (6) · [Git](#git) (18) · [Networking](#networking) (23) · [Email & Messaging](#email--messaging) (7) · [Text Editors](#text-editors) (22) · [Music & Audio](#music--audio) (15) · [Media & Entertainment](#media--entertainment) (6) · [Security](#security) (6) · [DevOps & Cloud](#devops--cloud) (15) · [Data Processing](#data-processing) (17) · [Logs](#logs) (5) · [Games & Fun](#games--fun) (8) · [AI](#ai) (8) · [Utilities & Other](#utilities--other) (5)
 
 ### File Management
 
@@ -360,6 +360,7 @@
 | [goaccess](https://goaccess.io) | GoAccess is a real-time web log analyzer and interactive viewer that runs in a terminal in *nix… | C | 21.1k | [Repo](https://github.com/allinurl/goaccess), [Website](https://goaccess.io) |
 | [lazyjournal](https://pkg.go.dev/github.com/Lifailon/lazyjournal) | TUI for viewing logs from journald, auditd, file system, Docker and Podman containers, Compose… | Go | 1.4k | [Repo](https://github.com/Lifailon/lazyjournal), [Website](https://pkg.go.dev/github.com/Lifailon/lazyjournal) |
 | [lnav](http://lnav.org) | Log file navigator | C++ | 10.8k | [Repo](https://github.com/tstack/lnav), [Website](http://lnav.org) |
+| [nerdlog](https://dmitryfrank.com/projects/nerdlog/article) | Nerdlog: fast, remote-first, multi-host TUI log viewer with timeline histogram and no central server | Go | – | [Repo](https://github.com/dimonomid/nerdlog), [Website](https://dmitryfrank.com/projects/nerdlog/article) |
 | [whyd](https://github.com/vmaltarello/whyd) | Find out why your Linux PC froze, crashed or shut down: whyd reads the journal of the previous boot… | Go | 83 | [Repo](https://github.com/vmaltarello/whyd) |
 
 ### Games & Fun
