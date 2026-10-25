@@ -1,7 +1,7 @@
 ---
 name: doggo
 category: Networking
-short_description: ':dog: Command-line DNS Client for Humans. Written in Golang'
+short_description: 🐶 Command-line DNS Client for Humans. Written in Golang
 description: >-
   doggo is a modern, feature-rich command-line DNS client written in Go designed
   as a human-friendly alternative to dig.
@@ -49,9 +49,10 @@ tags:
 media: https://raw.githubusercontent.com/mr-karan/doggo/main/www/static/doggo.png
 logo: https://cli.masoko.net/uploads/doggo/logo.png
 updated: '2026-10-25'
+comments: []
 repo_stars: 4524
-repo_updated: "2026-10-22"
-repo_created: "2020-12-09"
-repo_release: "v1.4.2"
-repo_release_date: "2026-10-22"
+repo_updated: '2026-10-22'
+repo_created: '2020-12-09'
+repo_release: v1.4.2
+repo_release_date: '2026-10-22'
 ---
