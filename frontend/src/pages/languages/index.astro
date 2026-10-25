@@ -51,7 +51,7 @@ const languages = [...bySlug.entries()]
 								<span class="dir-name">{label}/</span>
 								<span class="count">{count}</span>
 							</span>
-							{descriptions.get(slug) && <span class="dir-desc">{descriptions.get(slug)}</span>}
+							{descriptions.get(slug) && <span class="dir-desc" title={descriptions.get(slug)}>{descriptions.get(slug)}</span>}
 						</span>
 					</a>
 				</li>

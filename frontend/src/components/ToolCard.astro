@@ -4,6 +4,7 @@ import { filterDisplayTags } from '../lib/tag-filter';
 import { formatAge } from '../lib/repo-age';
 import { MAX_CARD_TAGS } from '../lib/config';
 import { VERIFIED_TITLE } from '../lib/badge';
+import { stripLeadingEmoji } from '../lib/text';
 
 interface Props {
 	tool: CollectionEntry<'tools'>;
@@ -39,18 +40,24 @@ const hiddenTagCount = displayTags.length - shownTags.length;
 				<span class="badge">{tool.data.language}</span>
 			</div>
 		</div>
-		<p>{tool.data.short_description}</p>
+		<p>{stripLeadingEmoji(tool.data.short_description)}</p>
 		<div class="badges">
-			{tool.data.repo_badge && <span class="badge badge-verified" title={VERIFIED_TITLE}>✓ verified</span>}
-			{repoStarsLabel && (
-				<span class="badge badge-stars" title={`${repoStars} stars`}>★ {repoStarsLabel}</span>
-			)}
-			<span class="badge">{tool.data.category}</span>
-			{tool.data.repo_created && (
-				<span class="badge" title={`Created ${tool.data.repo_created.slice(0, 10)}`}>
-					{formatAge(tool.data.repo_created)}
+			{(repoStarsLabel || tool.data.repo_badge) && (
+				<span class="badge-row">
+					{repoStarsLabel && (
+						<span class="badge badge-stars" title={`${repoStars} stars`}>★ {repoStarsLabel}</span>
+					)}
+					{tool.data.repo_badge && <span class="badge badge-verified" title={VERIFIED_TITLE}>✓ verified</span>}
 				</span>
 			)}
+			<span class="badge-row">
+				<span class="badge">{tool.data.category}</span>
+				{tool.data.repo_created && (
+					<span class="badge" title={`Created ${tool.data.repo_created.slice(0, 10)}`}>
+						{formatAge(tool.data.repo_created)}
+					</span>
+				)}
+			</span>
 		</div>
 		<ul class="tags">
 			{shownTags.map((tag) => (

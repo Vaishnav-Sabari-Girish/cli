@@ -10,6 +10,7 @@ import BrowseLinks from '../components/BrowseLinks.astro';
 import ToolCard from '../components/ToolCard.astro';
 import Pagination from '../components/Pagination.astro';
 import { SITE_NAME, itemListLd, pagedDescription, websiteLd } from '../lib/seo';
+import { stripLeadingEmoji } from '../lib/text';
 
 export const getStaticPaths = (async ({ paginate }) => {
 	const tools = await getSortedTools();
@@ -33,7 +34,7 @@ const searchIndex = allTools.map((tool) => {
 	return {
 		id: tool.id,
 		name: tool.data.name,
-		short: tool.data.short_description,
+		short: stripLeadingEmoji(tool.data.short_description),
 		category: tool.data.category,
 		language: tool.data.language,
 		tags: filterDisplayTags(tool.data.tags, reservedSlugs),
@@ -81,23 +82,30 @@ const title = page.currentPage > 1 ? `${SITE_NAME} — Page ${page.currentPage}`
 	<section id="filters" class="filters">
 		<label class="search-field">
 			<span class="caret" aria-hidden="true">$</span>
-			<input id="search" type="search" placeholder="Search tools… (press /)" aria-label="Search tools" />
+			<input id="search" type="search" placeholder="Search tools…" aria-label="Search tools" />
+			<kbd class="search-key" title="Press / to search">/</kbd>
 		</label>
 
-		<select id="category-filter">
-			<option value="">All categories</option>
-			{categories.map((category) => <option value={category}>{category}</option>)}
-		</select>
+		<button type="button" id="filters-toggle" class="filters-toggle" aria-expanded="false" aria-controls="filter-selects">
+			filters<span class="filters-count"></span> <span aria-hidden="true">▾</span>
+		</button>
 
-		<select id="language-filter">
-			<option value="">All languages</option>
-			{languages.map((language) => <option value={language}>{language}</option>)}
-		</select>
+		<div id="filter-selects" class="filter-selects">
+			<select id="category-filter" aria-label="Category">
+				<option value="">All categories</option>
+				{categories.map((category) => <option value={category}>{category}</option>)}
+			</select>
 
-		<select id="sort-filter" aria-label="Sort order">
-			<option value="">Recently updated</option>
-			<option value="stars">Most stars</option>
-		</select>
+			<select id="language-filter" aria-label="Language">
+				<option value="">All languages</option>
+				{languages.map((language) => <option value={language}>{language}</option>)}
+			</select>
+
+			<select id="sort-filter" aria-label="Sort order">
+				<option value="">Recently updated</option>
+				<option value="stars">Most stars</option>
+			</select>
+		</div>
 	</section>
 
 	<p id="empty-state" hidden>No tools match your filters.</p>
@@ -136,6 +144,9 @@ const title = page.currentPage > 1 ? `${SITE_NAME} — Page ${page.currentPage}`
 		const categoryFilter = document.getElementById('category-filter') as HTMLSelectElement;
 		const languageFilter = document.getElementById('language-filter') as HTMLSelectElement;
 		const sortFilter = document.getElementById('sort-filter') as HTMLSelectElement;
+		const filtersSection = document.getElementById('filters') as HTMLElement;
+		const filtersToggle = document.getElementById('filters-toggle') as HTMLButtonElement;
+		const filtersCount = filtersToggle.querySelector('.filters-count') as HTMLElement;
 		const statusSeg = document.querySelector<HTMLElement>('[data-status]');
 		const defaultStatus = statusSeg?.textContent ?? '';
 		const grid = document.getElementById('tool-grid') as HTMLUListElement;
@@ -188,31 +199,39 @@ const title = page.currentPage > 1 ? `${SITE_NAME} — Page ${page.currentPage}`
 
 			const badges = document.createElement('div');
 			badges.className = 'badges';
-			if (tool.verified) {
-				const verifiedBadge = document.createElement('span');
-				verifiedBadge.className = 'badge badge-verified';
-				verifiedBadge.title = VERIFIED_TITLE;
-				verifiedBadge.textContent = '✓ verified';
-				badges.append(verifiedBadge);
+			if (tool.stars !== null || tool.verified) {
+				const topRow = document.createElement('span');
+				topRow.className = 'badge-row';
+				if (tool.stars !== null) {
+					const starsBadge = document.createElement('span');
+					starsBadge.className = 'badge badge-stars';
+					starsBadge.title = `${tool.stars} stars`;
+					starsBadge.textContent = `★ ${compactNumber.format(tool.stars)}`;
+					topRow.append(starsBadge);
+				}
+				if (tool.verified) {
+					const verifiedBadge = document.createElement('span');
+					verifiedBadge.className = 'badge badge-verified';
+					verifiedBadge.title = VERIFIED_TITLE;
+					verifiedBadge.textContent = '✓ verified';
+					topRow.append(verifiedBadge);
+				}
+				badges.append(topRow);
 			}
-			if (tool.stars !== null) {
-				const starsBadge = document.createElement('span');
-				starsBadge.className = 'badge badge-stars';
-				starsBadge.title = `${tool.stars} stars`;
-				starsBadge.textContent = `★ ${compactNumber.format(tool.stars)}`;
-				badges.append(starsBadge);
-			}
+			const metaRow = document.createElement('span');
+			metaRow.className = 'badge-row';
 			const categoryBadge = document.createElement('span');
 			categoryBadge.className = 'badge';
 			categoryBadge.textContent = tool.category;
-			badges.append(categoryBadge);
+			metaRow.append(categoryBadge);
 			if (tool.created) {
 				const ageBadge = document.createElement('span');
 				ageBadge.className = 'badge';
 				ageBadge.title = `Created ${tool.created.slice(0, 10)}`;
 				ageBadge.textContent = formatAge(tool.created);
-				badges.append(ageBadge);
+				metaRow.append(ageBadge);
 			}
+			badges.append(metaRow);
 			a.append(badges);
 
 			const tags = document.createElement('ul');
@@ -268,6 +287,7 @@ const title = page.currentPage > 1 ? `${SITE_NAME} — Page ${page.currentPage}`
 			const filtering = query !== '' || category !== '' || language !== '' || sortByStars;
 
 			syncUrl();
+			updateFiltersCount();
 
 			if (!filtering) {
 				// Default paginated browsing: show this page's static grid + nav.
@@ -298,6 +318,19 @@ const title = page.currentPage > 1 ? `${SITE_NAME} — Page ${page.currentPage}`
 			if (statusSeg) statusSeg.textContent = `${matches.length} match${matches.length === 1 ? '' : 'es'}`;
 		}
 
+		// Small screens fold the selects behind a toggle; it shows how many are set.
+		function setFiltersOpen(open: boolean) {
+			filtersSection.classList.toggle('open', open);
+			filtersToggle.setAttribute('aria-expanded', String(open));
+		}
+
+		function updateFiltersCount() {
+			const active = [categoryFilter, languageFilter, sortFilter].filter((select) => select.value).length;
+			filtersCount.textContent = active ? ` (${active})` : '';
+		}
+
+		filtersToggle.addEventListener('click', () => setFiltersOpen(!filtersSection.classList.contains('open')));
+
 		search.addEventListener('input', applyFilters);
 		categoryFilter.addEventListener('change', applyFilters);
 		languageFilter.addEventListener('change', applyFilters);
@@ -318,5 +351,6 @@ const title = page.currentPage > 1 ? `${SITE_NAME} — Page ${page.currentPage}`
 
 		restoreFromUrl();
 		if (location.search) applyFilters();
+		if (categoryFilter.value || languageFilter.value || sortFilter.value) setFiltersOpen(true);
 	</script>
 </BaseLayout>

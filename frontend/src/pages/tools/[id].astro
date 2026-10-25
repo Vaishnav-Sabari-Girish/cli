@@ -9,6 +9,7 @@ import { formatAge } from '../../lib/repo-age';
 import { softwareLd, toolDescription, toolTitle } from '../../lib/seo';
 import { badgeSnippets, VERIFIED_TITLE } from '../../lib/badge';
 import { guidesForTool } from '../../lib/guides';
+import { stripLeadingEmoji } from '../../lib/text';
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import ToolCard from '../../components/ToolCard.astro';
 import LanguageIcon from '../../components/LanguageIcon.astro';
@@ -73,49 +74,22 @@ const youTubeId = data.media ? getYouTubeId(data.media) : undefined;
 		{data.logo && <img src={data.logo} alt={`${data.name} logo`} width="64" height="64" />}
 		<div>
 			<h1>{data.name}<span class="num"></span></h1>
-			<p class="tagline">{data.short_description}</p>
-			<p class="man-meta">
+			<p class="tagline">{stripLeadingEmoji(data.short_description)}</p>
+			<p class="man-meta chips">
 				{[
 					data.repo_badge && <span class="badge badge-verified" title={VERIFIED_TITLE}>✓ verified</span>,
 					repoStarsLabel && (
 						<span class="badge badge-stars" title={`${repoStars} stars`}>★ {repoStarsLabel}</span>
 					),
-					<span>{data.license}</span>,
-					data.repo_release && <span>{data.repo_release}</span>,
-					<span>{data.language}</span>,
-				]
-					.filter(Boolean)
-					.flatMap((item, i) => (i === 0 ? [item] : [<span class="sep">·</span>, item]))}
+					<span class="chip" title="License">{data.license}</span>,
+					data.repo_release && <span class="chip" title="Latest release">{data.repo_release}</span>,
+					<a class="chip" href={`/languages/${slugify(data.language)}/`} title="Language">{data.language}</a>,
+				].filter(Boolean)}
 			</p>
 		</div>
 	</header>
 
-	{data.media && (asciinemaId
-		? <script id={`asciicast-${asciinemaId}`} src={`https://asciinema.org/a/${asciinemaId}.js`} data-autoplay="false" async />
-		: youTubeId
-			? <iframe
-					class="media media-embed"
-					src={getYouTubeEmbedUrl(youTubeId)}
-					title={`${data.name} demo video`}
-					loading="lazy"
-					allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-					referrerpolicy="strict-origin-when-cross-origin"
-					allowfullscreen
-				/>
-			: getMediaKind(data.media) === 'video'
-				? <video class="media" src={data.media} autoplay loop muted playsinline controls />
-				: <img class="media" src={data.media} alt={`${data.name} demo`} />
-	)}
-
-	<section class="man-section">
-		<h2>DESCRIPTION</h2>
-		<div class="description" set:html={descriptionHtml} />
-		<div class="content">
-			<Content />
-		</div>
-	</section>
-
-	<section class="man-section">
+	<section class="man-section install-section">
 		<h2>INSTALLATION</h2>
 		<div class="install-tabs">
 			{
@@ -152,6 +126,7 @@ const youTubeId = data.media ? getYouTubeId(data.media) : undefined;
 							data-command={entry.command}
 							aria-label="Copy command to clipboard"
 						>
+							<span class="copy-label" aria-hidden="true">copied</span>
 							<svg class="icon-copy" viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
 								<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z" />
 								<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z" />
@@ -170,6 +145,31 @@ const youTubeId = data.media ? getYouTubeId(data.media) : undefined;
 					</div>
 				))
 			}
+		</div>
+	</section>
+
+	{data.media && (asciinemaId
+		? <script id={`asciicast-${asciinemaId}`} src={`https://asciinema.org/a/${asciinemaId}.js`} data-autoplay="false" async />
+		: youTubeId
+			? <iframe
+					class="media media-embed"
+					src={getYouTubeEmbedUrl(youTubeId)}
+					title={`${data.name} demo video`}
+					loading="lazy"
+					allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+					referrerpolicy="strict-origin-when-cross-origin"
+					allowfullscreen
+				/>
+			: getMediaKind(data.media) === 'video'
+				? <video class="media" src={data.media} autoplay loop muted playsinline controls />
+				: <img class="media" src={data.media} alt={`${data.name} demo`} />
+	)}
+
+	<section class="man-section">
+		<h2>DESCRIPTION</h2>
+		<div class="description" set:html={descriptionHtml} />
+		<div class="content">
+			<Content />
 		</div>
 	</section>
 
@@ -280,6 +280,7 @@ const youTubeId = data.media ? getYouTubeId(data.media) : undefined;
 						<div class="tab-panel">
 							<pre class="code"><code>{snippet}</code></pre>
 							<button type="button" class="copy-btn" data-command={snippet} aria-label={`Copy ${label} badge snippet`}>
+								<span class="copy-label" aria-hidden="true">copied</span>
 								<svg class="icon-copy" viewBox="0 0 16 16" width="16" height="16" fill="currentColor">
 									<path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z" />
 									<path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z" />

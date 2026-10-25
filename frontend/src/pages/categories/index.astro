@@ -44,7 +44,7 @@ const nonEmptyCategories = CATEGORIES.filter((category) => (counts.get(category)
 								<span class="count">{counts.get(category)}</span>
 							</span>
 							{descriptions.get(slugify(category)) && (
-								<span class="dir-desc">{descriptions.get(slugify(category))}</span>
+								<span class="dir-desc" title={descriptions.get(slugify(category))}>{descriptions.get(slugify(category))}</span>
 							)}
 						</span>
 					</a>
