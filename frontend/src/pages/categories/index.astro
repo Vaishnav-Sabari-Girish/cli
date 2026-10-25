@@ -13,9 +13,8 @@ const counts = new Map<string, number>();
 for (const tool of tools) {
 	counts.set(tool.data.category, (counts.get(tool.data.category) ?? 0) + 1);
 }
-// Biggest categories first; name as a stable tiebreak.
-const nonEmptyCategories = CATEGORIES.filter((category) => (counts.get(category) ?? 0) > 0).sort(
-	(a, b) => counts.get(b)! - counts.get(a)! || a.localeCompare(b),
+const nonEmptyCategories = CATEGORIES.filter((category) => (counts.get(category) ?? 0) > 0).sort((a, b) =>
+	a.localeCompare(b),
 );
 ---
 

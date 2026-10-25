@@ -24,7 +24,7 @@ const { page } = Astro.props;
 const allTools = sortByUpdated(await getCollection('tools'));
 const languages = [...new Set(allTools.map((tool) => tool.data.language))].sort();
 const usedCategories = new Set(allTools.map((tool) => tool.data.category));
-const categories = CATEGORIES.filter((category) => usedCategories.has(category));
+const categories = CATEGORIES.filter((category) => usedCategories.has(category)).sort((a, b) => a.localeCompare(b));
 const reservedSlugs = getReservedSlugs(allTools);
 
 // Compact search index embedded once per page. `search` mirrors ToolCard's
