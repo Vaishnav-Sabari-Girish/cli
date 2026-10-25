@@ -6,9 +6,7 @@ const LABEL = '>_ terminal index';
 const MESSAGE = 'listed';
 // shields.io's default label gray, so it sits flush beside other badges.
 const LABEL_BG = '#555';
-// A lighter gray than the label keeps the two halves distinct while
-// still passing contrast with white text.
-const MESSAGE_BG = '#777';
+const MESSAGE_BG = '#f74c00';
 
 // Monospace glyphs are ~0.6em wide; at 11px that's ~6.6px. `textLength`
 // pins the rendered width so the layout holds whatever font the viewer has.
