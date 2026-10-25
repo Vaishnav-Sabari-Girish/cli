@@ -17,6 +17,7 @@
 	--accent-green: #6fcf87;
 	--accent-amber: #e0a83a;
 	--accent-ink: #14151a;
+	--title-shadow: #1f6b3a;
 	--amber-text: #e0a83a;
 	--shadow: rgba(0, 0, 0, 0.55);
 	--radius: 3px;
@@ -41,6 +42,7 @@
 		--accent-green: #1f7a43;
 		--accent-amber: #e0a83a;
 		--accent-ink: #14151a;
+		--title-shadow: #3f9a5e;
 		--amber-text: #8a5a00;
 		--shadow: rgba(0, 0, 0, 0.12);
 	}
@@ -324,7 +326,7 @@ textarea {
 	margin-bottom: 1rem;
 	color: var(--fg);
 	/* hard-edged drop shadow, like an 8-bit title screen */
-	text-shadow: 0.08em 0.08em 0 var(--accent-rust);
+	text-shadow: 0.08em 0.08em 0 var(--title-shadow);
 }
 
 /* Site mark rendered in front of hero titles; sized in em so it tracks the h1. */
@@ -816,7 +818,7 @@ a.page-num:hover {
 	line-height: 1.4;
 	letter-spacing: 0;
 	overflow-wrap: anywhere;
-	text-shadow: 0.08em 0.08em 0 var(--accent-rust);
+	text-shadow: 0.08em 0.08em 0 var(--title-shadow);
 	display: inline;
 }
 
