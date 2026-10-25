@@ -49,14 +49,14 @@ tags:
   - tv
   - web-scraping
   - windows
-media: >-
-  https://private-user-images.githubusercontent.com/66764647/610755253-be296568-f5c1-4675-86e4-626434f2829c.gif?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3OTI1ODMxMjIsIm5iZiI6MTc5MjU4MjgyMiwicGF0aCI6Ii82Njc2NDY0Ny82MTA3NTUyNTMtYmUyOTY1NjgtZjVjMS00Njc1LTg2ZTQtNjI2NDM0ZjI4MjljLmdpZj9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNjEwMjElMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjYxMDIxVDExNDAyMlomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTBjMzQ2Y2RlYWYwMjc3YjIwMGM2Yzg5NjI0YTQzMTYwOGQ1YzM0YjE4MjRlMjdjNWM1NDk1MWMyMmE2NDExYTgmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JnJlc3BvbnNlLWNvbnRlbnQtdHlwZT1pbWFnZSUyRmdpZiJ9.wqmiIzKZUfA2KVDycdw9lRH-OZvAbCW8t7w5HX_N0UM
+media: https://cli.masoko.net/uploads/kari/media.png
 logo: >-
   https://github.com/Dhairya3391/kari/blob/main/assets/discord/kari_logo.png?raw=true
-updated: '2026-10-21'
+updated: '2026-10-25'
+comments: []
 repo_stars: 62
-repo_updated: "2026-10-24"
-repo_created: "2026-06-08"
-repo_release: "v6.2.2"
-repo_release_date: "2026-10-24"
+repo_updated: '2026-10-24'
+repo_created: '2026-06-08'
+repo_release: v6.2.2
+repo_release_date: '2026-10-24'
 ---
