@@ -36,8 +36,8 @@ updated: '2026-10-22'
 repo_stars: 55
 repo_updated: "2026-10-25"
 repo_created: "2026-06-30"
-repo_release: "v0.2.95"
-repo_release_date: "2026-10-21"
+repo_release: "v0.2.96"
+repo_release_date: "2026-10-25"
 repo_badge: true
 comments:
   - user: prjctimg
