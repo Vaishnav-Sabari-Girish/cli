@@ -11,7 +11,7 @@
     </tr>
   </table>
 
-[![Tools](https://img.shields.io/badge/tools-261-f74c00)](https://cli.masoko.net)
+[![Tools](https://img.shields.io/badge/tools-262-f74c00)](https://cli.masoko.net)
 [![Website](https://img.shields.io/badge/website-cli.masoko.net-14151a)](https://cli.masoko.net)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](#contributing)
@@ -22,9 +22,9 @@
 
 <!-- TOOLS:START -->
 
-**261 tools** across **23 categories** — browse with screenshots, ratings and comments at [cli.masoko.net](https://cli.masoko.net).
+**262 tools** across **23 categories** — browse with screenshots, ratings and comments at [cli.masoko.net](https://cli.masoko.net).
 
-[File Management](#file-management) (19) · [Directory Listing](#directory-listing) (9) · [Disk Usage](#disk-usage) (5) · [Shell & Terminal](#shell--terminal) (16) · [Search](#search) (6) · [System Monitoring](#system-monitoring) (8) · [Productivity](#productivity) (10) · [Notes & Documents](#notes--documents) (12) · [Development Tools](#development-tools) (12) · [HTTP & API Clients](#http--api-clients) (6) · [Git](#git) (18) · [Networking](#networking) (24) · [Email & Messaging](#email--messaging) (7) · [Text Editors](#text-editors) (22) · [Music & Audio](#music--audio) (15) · [Media & Entertainment](#media--entertainment) (6) · [Security](#security) (6) · [DevOps & Cloud](#devops--cloud) (15) · [Data Processing](#data-processing) (18) · [Logs](#logs) (5) · [Games & Fun](#games--fun) (8) · [AI](#ai) (8) · [Utilities & Other](#utilities--other) (6)
+[File Management](#file-management) (20) · [Directory Listing](#directory-listing) (9) · [Disk Usage](#disk-usage) (5) · [Shell & Terminal](#shell--terminal) (16) · [Search](#search) (6) · [System Monitoring](#system-monitoring) (8) · [Productivity](#productivity) (10) · [Notes & Documents](#notes--documents) (12) · [Development Tools](#development-tools) (12) · [HTTP & API Clients](#http--api-clients) (6) · [Git](#git) (18) · [Networking](#networking) (24) · [Email & Messaging](#email--messaging) (7) · [Text Editors](#text-editors) (22) · [Music & Audio](#music--audio) (15) · [Media & Entertainment](#media--entertainment) (6) · [Security](#security) (6) · [DevOps & Cloud](#devops--cloud) (15) · [Data Processing](#data-processing) (18) · [Logs](#logs) (5) · [Games & Fun](#games--fun) (8) · [AI](#ai) (8) · [Utilities & Other](#utilities--other) (6)
 
 ### File Management
 
@@ -34,6 +34,7 @@
 | [broot](https://dystroy.org/broot/) | A new way to see and navigate directory trees | Rust | 13.1k | [Repo](https://github.com/Canop/broot), [Website](https://dystroy.org/broot/) |
 | [elio](https://elio-fm.github.io/) | Snappy, batteries-included terminal file manager with rich previews. | Rust | 903 | [Repo](https://github.com/elio-fm/elio), [Website](https://elio-fm.github.io/) |
 | [far2l](https://github.com/elfmz/far2l) | Linux port of FAR v2 | C++ | 2.2k | [Repo](https://github.com/elfmz/far2l) |
+| [Favnyr](https://github.com/GlitchAwakened/Favnyr) | A modern and lightweight file manager for Windows and Linux | Rust | – | [Repo](https://github.com/GlitchAwakened/Favnyr) |
 | [felix](https://kyoheiu.dev/felix/) | tui file manager with vim-like key mapping | Rust | 923 | [Repo](https://github.com/kyoheiu/felix), [Website](https://kyoheiu.dev/felix/) |
 | [FTB](https://github.com/Cyxuan0311/FTB) | A terminal-based file browser, built with C++17 and FTXUI. | C++ | 16 | [Repo](https://github.com/Cyxuan0311/FTB) |
 | [lf](https://github.com/gokcehan/lf) | lf (as in "list files") is a terminal file manager written in Go with a heavy inspiration from… | Go | 9.6k | [Repo](https://github.com/gokcehan/lf) |
