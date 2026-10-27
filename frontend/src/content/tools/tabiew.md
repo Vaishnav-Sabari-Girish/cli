@@ -28,12 +28,13 @@ tags:
   - csv
   - sql
   - fzf
-media: https://github.com/shshemi/tabiew/raw/main/images/main.gif
+media: https://raw.githubusercontent.com/wiki/shshemi/tabiew/gifs/demo.gif
 logo: https://avatars.githubusercontent.com/u/6219240?v=4
-updated: '2026-07-09'
+updated: '2026-10-27'
+comments: []
 repo_stars: 3165
-repo_updated: "2026-10-26"
-repo_created: "2024-04-27"
-repo_release: "v0.16.0"
-repo_release_date: "2026-10-26"
+repo_updated: '2026-10-26'
+repo_created: '2024-04-27'
+repo_release: v0.16.0
+repo_release_date: '2026-10-26'
 ---
