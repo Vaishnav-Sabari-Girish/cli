@@ -27,14 +27,14 @@ platforms:
 tags:
   - markdown
   - md
-media: >-
-  https://raw.githubusercontent.com/nol00p/Shoin/refs/heads/main/examples/images/shoin.png
+media: https://raw.githubusercontent.com/nol00p/Shoin/main/docs/media/hero.gif
 logo: https://avatars.githubusercontent.com/u/63861454?v=4
-updated: '2026-09-05'
+updated: '2026-10-27'
+comments: []
 repo_stars: 63
-repo_updated: "2026-10-26"
-repo_created: "2026-08-28"
-repo_release: "v0.1.8"
-repo_release_date: "2026-10-23"
+repo_updated: '2026-10-26'
+repo_created: '2026-08-28'
+repo_release: v0.1.8
+repo_release_date: '2026-10-23'
 repo_badge: true
 ---
