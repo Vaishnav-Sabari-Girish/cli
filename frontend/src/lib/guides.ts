@@ -35,9 +35,9 @@ export const ALTERNATIVES: Alternative[] = [
 	},
 	{
 		slug: 'top',
-		replaces: 'top',
-		title: 'Modern alternatives to top',
-		intro: 'Process and resource monitors with graphs, mouse support and better defaults than the stock top.',
+		replaces: 'top / ps',
+		title: 'Modern alternatives to top and ps',
+		intro: 'Process and resource monitors with graphs, mouse support and better defaults than the stock top, plus friendlier process listings than ps.',
 		tools: ['btop', 'htop', 'gtop', 'procs', 'ctop', 'metropolis'],
 	},
 	{
