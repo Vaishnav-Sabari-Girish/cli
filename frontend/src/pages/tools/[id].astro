@@ -48,6 +48,11 @@ if (data.website) {
 	}
 }
 
+// star-history.com only charts GitHub repos.
+const githubRepo = data.repository_url.match(/^https?:\/\/(?:www\.)?github\.com\/([^/]+\/[^/#?]+?)(?:\.git)?\/?$/)?.[1];
+const starHistoryChart = (theme?: 'dark') =>
+	`https://api.star-history.com/svg?repos=${githubRepo}&type=Date${theme ? `&theme=${theme}` : ''}`;
+
 const seeAlso = guidesForTool(tool.id);
 
 const badge = badgeSnippets(Astro.site!, tool.id, data.name);
@@ -234,6 +239,23 @@ const youTubeId = data.media ? getYouTubeId(data.media) : undefined;
 			)}
 		</dl>
 	</section>
+
+	{githubRepo && (
+		<section class="man-section star-history">
+			<h2>STAR HISTORY</h2>
+			<a href={`https://www.star-history.com/#${githubRepo}&Date`} target="_blank" rel="noopener">
+				<picture>
+					<source media="(prefers-color-scheme: dark)" srcset={starHistoryChart('dark')} />
+					<img
+						src={starHistoryChart()}
+						alt={`Star history chart for ${githubRepo}`}
+						loading="lazy"
+						onerror="this.closest('section').hidden = true"
+					/>
+				</picture>
+			</a>
+		</section>
+	)}
 
 	<section class="man-section">
 		<h2>TAGS</h2>
