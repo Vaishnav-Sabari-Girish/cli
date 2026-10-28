@@ -40,10 +40,10 @@ media: https://github.com/allisonhere/tidemail/raw/main/images/tidemail.png
 logo: https://github.com/allisonhere/tidemail/raw/main/images/tidemail-icon.png
 updated: '2026-10-21'
 repo_stars: 84
-repo_updated: "2026-10-26"
+repo_updated: "2026-10-28"
 repo_created: "2026-05-20"
-repo_release: "v1.6.0"
-repo_release_date: "2026-10-21"
+repo_release: "v1.7.0"
+repo_release_date: "2026-10-27"
 repo_badge: true
 comments: []
 ---

@@ -31,7 +31,7 @@ tags:
   - jq
 logo: https://jqlang.org/jq.svg
 updated: '2026-07-15'
-repo_stars: 35966
+repo_stars: 35979
 repo_updated: "2026-10-25"
 repo_created: "2012-07-18"
 repo_release: "jq-1.8.2"
