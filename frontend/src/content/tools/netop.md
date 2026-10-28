@@ -1,6 +1,6 @@
 ---
 name: netop
-category: System Monitoring
+category: Networking
 short_description: Network Top -- Help you monitor network traffic with bpf
 description: >-
   A lightweight terminal-based network traffic monitor written in Rust with low

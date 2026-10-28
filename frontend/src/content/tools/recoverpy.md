@@ -1,6 +1,6 @@
 ---
 name: RecoverPy
-category: Security
+category: File Management
 short_description: >-
   Interactively find and recover deleted or :point_right: overwritten
   :point_left: files from your terminal

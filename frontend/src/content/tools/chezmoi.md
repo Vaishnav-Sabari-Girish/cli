@@ -1,6 +1,6 @@
 ---
 name: chezmoi
-category: Productivity
+category: Shell & Terminal
 short_description: Manage your dotfiles across multiple diverse machines, securely.
 description: >-
   Chezmoi is a popular command-line tool for managing your dotfiles across

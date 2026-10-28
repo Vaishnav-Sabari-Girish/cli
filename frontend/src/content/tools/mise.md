@@ -1,6 +1,6 @@
 ---
 name: mise
-category: DevOps & Cloud
+category: Development Tools
 short_description: dev tools, env vars, task runner
 description: >-
   mise is a fast, cross-platform task runner and environment manager that

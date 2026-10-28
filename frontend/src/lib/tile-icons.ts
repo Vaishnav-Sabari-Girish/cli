@@ -97,6 +97,57 @@ export const COLLECTION_ICONS: Record<string, string> = {
 		<rect x="10" y="37" width="30" height="17" rx="3" fill="${PURPLE}" />
 		<polyline points="15 50 15 42 19 46 23 42 23 50" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
 		<path d="M32 42v8M28.5 46.5L32 50l3.5-3.5" fill="none" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />`,
+	// a sun peeking out from behind a cloud, with sparkles
+	'terminal-eye-candy': `
+		<circle cx="24" cy="24" r="9" fill="${AMBER}" />
+		<path d="M24 9v4M24 35v4M9 24h4M11.4 11.4l2.8 2.8M33.8 14.2l2.8-2.8M11.4 36.6l2.8-2.8" stroke="${AMBER}" stroke-width="3" stroke-linecap="round" />
+		<path d="M22 50a8 8 0 0 1 1-15.9A11 11 0 0 1 44 33a8.5 8.5 0 0 1 2 17z" fill="var(--panel)" stroke="var(--border)" stroke-width="2" stroke-linejoin="round" />
+		<path d="M50 8 C50.6 12 51.6 13.2 55.5 14 C51.6 14.8 50.6 16 50 20 C49.4 16 48.4 14.8 44.5 14 C48.4 13.2 49.4 12 50 8Z" fill="${PINK}" />
+		<circle cx="54" cy="27" r="2.5" fill="${PURPLE}" />`,
+	// a penguin
+	'linux-desktop-tuis': `
+		<ellipse cx="32" cy="36" rx="15" ry="18" fill="#24292f" stroke="var(--fg-dim)" stroke-width="3" />
+		<circle cx="32" cy="20" r="11" fill="#24292f" stroke="var(--fg-dim)" stroke-width="3" />
+		<ellipse cx="32" cy="36" rx="15" ry="18" fill="#24292f" />
+		<circle cx="32" cy="20" r="11" fill="#24292f" />
+		<ellipse cx="32" cy="40" rx="10" ry="13" fill="#fff" />
+		<circle cx="28" cy="18" r="2.6" fill="#fff" />
+		<circle cx="36" cy="18" r="2.6" fill="#fff" />
+		<circle cx="28.5" cy="18.5" r="1.2" fill="#24292f" />
+		<circle cx="35.5" cy="18.5" r="1.2" fill="#24292f" />
+		<path d="M27.5 23.5h9L32 28z" fill="${AMBER}" stroke="${AMBER}" stroke-width="1.5" stroke-linejoin="round" />
+		<ellipse cx="24" cy="54" rx="6" ry="3" fill="${AMBER}" />
+		<ellipse cx="40" cy="54" rx="6" ry="3" fill="${AMBER}" />`,
+	// a house with a server rack inside
+	'self-hosting-homelab': `
+		<path d="M8 30L32 10l24 20" fill="none" stroke="${RUST}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+		<path d="M14 26v26a2 2 0 0 0 2 2h32a2 2 0 0 0 2-2V26" fill="var(--panel)" stroke="var(--border)" stroke-width="2" stroke-linejoin="round" />
+		<rect x="21" y="30" width="22" height="7" rx="2" fill="var(--bg-deep)" stroke="var(--border)" stroke-width="1.5" />
+		<rect x="21" y="40" width="22" height="7" rx="2" fill="var(--bg-deep)" stroke="var(--border)" stroke-width="1.5" />
+		<circle cx="25.5" cy="33.5" r="1.8" fill="${GREEN}" />
+		<circle cx="25.5" cy="43.5" r="1.8" fill="${GREEN}" />
+		<rect x="30" y="32.5" width="9" height="2" rx="1" fill="var(--fg-dim)" />
+		<rect x="30" y="42.5" width="6" height="2" rx="1" fill="var(--fg-dim)" />`,
+	// a calendar page with a checked day
+	'personal-organizers': `
+		<rect x="10" y="14" width="44" height="40" rx="5" fill="var(--panel)" stroke="var(--border)" stroke-width="2" />
+		<path d="M10 19a5 5 0 0 1 5-5h34a5 5 0 0 1 5 5v7H10z" fill="${RUST}" />
+		<line x1="21" y1="9" x2="21" y2="18" stroke="var(--fg-dim)" stroke-width="3.5" stroke-linecap="round" />
+		<line x1="43" y1="9" x2="43" y2="18" stroke="var(--fg-dim)" stroke-width="3.5" stroke-linecap="round" />
+		<rect x="16" y="31" width="7" height="6" rx="1.5" fill="var(--fg-dim)" />
+		<rect x="28.5" y="31" width="7" height="6" rx="1.5" fill="var(--fg-dim)" />
+		<rect x="41" y="31" width="7" height="6" rx="1.5" fill="var(--fg-dim)" />
+		<rect x="16" y="42" width="7" height="6" rx="1.5" fill="var(--fg-dim)" />
+		<rect x="28" y="41" width="8" height="8" rx="2" fill="${GREEN}" />
+		<polyline points="30 45 31.8 47 34.5 43" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />`,
+	// a pull request: two branches, an arrow and a merge target
+	'github-gitlab-cli': `
+		<line x1="18" y1="18" x2="18" y2="46" stroke="${BLUE}" stroke-width="4" stroke-linecap="round" />
+		<circle cx="18" cy="15" r="5.5" fill="var(--bg-deep)" stroke="${BLUE}" stroke-width="3.5" />
+		<circle cx="18" cy="49" r="5.5" fill="var(--bg-deep)" stroke="${BLUE}" stroke-width="3.5" />
+		<path d="M46 43V24a6 6 0 0 0-6-6H29" fill="none" stroke="${PURPLE}" stroke-width="4" stroke-linecap="round" />
+		<polyline points="34 12 28 18 34 24" fill="none" stroke="${PURPLE}" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" />
+		<circle cx="46" cy="49" r="5.5" fill="var(--bg-deep)" stroke="${GREEN}" stroke-width="3.5" />`,
 };
 
 // Keyed by slugified category name (see CATEGORIES in lib/schema.ts).

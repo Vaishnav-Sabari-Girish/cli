@@ -1,6 +1,6 @@
 ---
 name: lazyssh
-category: Utilities & Other
+category: Networking
 short_description: A terminal-based SSH manager inspired by lazydocker and k9s - Written in go
 description: >-
   lazyssh is a terminal-based, interactive SSH manager written in Go, inspired

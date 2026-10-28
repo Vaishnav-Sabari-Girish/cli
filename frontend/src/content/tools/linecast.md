@@ -1,6 +1,6 @@
 ---
 name: linecast
-category: Utilities & Other
+category: Media & Entertainment
 short_description: >-
   Weather, tides, the sun, the moon, and maps, in your terminal. The Old
   Farmer's Almanac meets Minitel.

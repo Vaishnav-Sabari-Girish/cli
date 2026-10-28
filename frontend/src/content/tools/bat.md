@@ -1,6 +1,6 @@
 ---
 name: bat
-category: Productivity
+category: Shell & Terminal
 short_description: A cat(1) clone with syntax highlighting and Git integration.
 description: >-
   bat is a modern, feature-rich clone of the classic cat command written in
