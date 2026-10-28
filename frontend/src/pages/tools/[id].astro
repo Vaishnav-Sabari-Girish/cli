@@ -89,6 +89,7 @@ const youTubeId = data.media ? getYouTubeId(data.media) : undefined;
 					<span class="chip" title="License">{data.license}</span>,
 					data.repo_release && <span class="chip" title="Latest release">{data.repo_release}</span>,
 					<a class="chip" href={`/languages/${slugify(data.language)}/`} title="Language">{data.language}</a>,
+					<a class="chip" href={`/categories/${slugify(data.category)}/`} title="Category">{data.category}</a>,
 				].filter(Boolean)}
 			</p>
 		</div>
