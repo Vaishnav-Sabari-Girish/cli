@@ -11,7 +11,7 @@
     </tr>
   </table>
 
-[![Tools](https://img.shields.io/badge/tools-263-f74c00)](https://cli.masoko.net)
+[![Tools](https://img.shields.io/badge/tools-264-f74c00)](https://cli.masoko.net)
 [![Website](https://img.shields.io/badge/website-cli.masoko.net-14151a)](https://cli.masoko.net)
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](#contributing)
@@ -22,9 +22,9 @@
 
 <!-- TOOLS:START -->
 
-**263 tools** across **23 categories** — browse with screenshots, ratings and comments at [cli.masoko.net](https://cli.masoko.net).
+**264 tools** across **23 categories** — browse with screenshots, ratings and comments at [cli.masoko.net](https://cli.masoko.net).
 
-[File Management](#file-management) (19) · [Directory Listing](#directory-listing) (9) · [Disk Usage](#disk-usage) (5) · [Shell & Terminal](#shell--terminal) (16) · [Search](#search) (6) · [System Monitoring](#system-monitoring) (10) · [Productivity](#productivity) (10) · [Notes & Documents](#notes--documents) (12) · [Development Tools](#development-tools) (12) · [HTTP & API Clients](#http--api-clients) (6) · [Git](#git) (18) · [Networking](#networking) (24) · [Email & Messaging](#email--messaging) (7) · [Text Editors](#text-editors) (22) · [Music & Audio](#music--audio) (15) · [Media & Entertainment](#media--entertainment) (6) · [Security](#security) (6) · [DevOps & Cloud](#devops--cloud) (15) · [Data Processing](#data-processing) (18) · [Logs](#logs) (5) · [Games & Fun](#games--fun) (8) · [AI](#ai) (8) · [Utilities & Other](#utilities--other) (6)
+[File Management](#file-management) (19) · [Directory Listing](#directory-listing) (9) · [Disk Usage](#disk-usage) (5) · [Shell & Terminal](#shell--terminal) (16) · [Search](#search) (6) · [System Monitoring](#system-monitoring) (11) · [Productivity](#productivity) (10) · [Notes & Documents](#notes--documents) (12) · [Development Tools](#development-tools) (12) · [HTTP & API Clients](#http--api-clients) (6) · [Git](#git) (18) · [Networking](#networking) (24) · [Email & Messaging](#email--messaging) (7) · [Text Editors](#text-editors) (22) · [Music & Audio](#music--audio) (15) · [Media & Entertainment](#media--entertainment) (6) · [Security](#security) (6) · [DevOps & Cloud](#devops--cloud) (15) · [Data Processing](#data-processing) (18) · [Logs](#logs) (5) · [Games & Fun](#games--fun) (8) · [AI](#ai) (8) · [Utilities & Other](#utilities--other) (6)
 
 ### File Management
 
@@ -119,6 +119,7 @@
 | [metropolis](https://github.com/5c0/metropolis) | A cyberpunk system monitor that transforms kernel metrics into a living terminal skyline. | Rust | 295 | [Repo](https://github.com/5c0/metropolis) |
 | [netop](https://crates.io/crates/netop) | Network Top -- Help you monitor network traffic with bpf | Rust | 270 | [Repo](https://github.com/ZingerLittleBee/netop), [Website](https://crates.io/crates/netop) |
 | [procs](https://github.com/dalance/procs) | A modern replacement for ps written in Rust | Rust | 6.2k | [Repo](https://github.com/dalance/procs) |
+| [sysdig](http://www.sysdig.com/) | Linux system exploration and troubleshooting tool with first class support for containers | C++ | – | [Repo](https://github.com/draios/sysdig), [Website](http://www.sysdig.com/) |
 | [usbtree](https://gnomeria.github.io/usbtree/) | Live USB device tree in your terminal. Rust TUI, no root, no libusb. Full activity metrics on… | Rust | 707 | [Repo](https://github.com/gnomeria/usbtree), [Website](https://gnomeria.github.io/usbtree/) |
 
 ### Productivity
