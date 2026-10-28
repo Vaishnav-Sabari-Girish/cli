@@ -256,6 +256,15 @@ export async function submitTool(
 	const sha = await getForkBranchSha(token, login);
 
 	const slug = slugify(data.name);
+	// Checked before branching so a duplicate leaves no stray branch/uploads —
+	// otherwise the final PUT fails with GitHub's cryptic `"sha" wasn't supplied`.
+	const toolPath = `frontend/src/content/tools/${slug}.md`;
+	if (await getExistingFileSha(token, login, toolPath, TARGET_BRANCH)) {
+		throw new Error(
+			`A listing with the id "${slug}" already exists. Edit it at /tools/${slug}/ instead, or pick a different name.`,
+		);
+	}
+
 	const branch = `submission-${slug}-${Date.now()}`;
 	await createBranch(token, login, branch, sha);
 
@@ -268,7 +277,7 @@ export async function submitTool(
 		token,
 		login,
 		branch,
-		`frontend/src/content/tools/${slug}.md`,
+		toolPath,
 		toBase64Utf8(content),
 		`Add ${data.name} to the directory`,
 	);
