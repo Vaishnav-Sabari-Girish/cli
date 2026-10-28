@@ -52,8 +52,8 @@ media: >-
 logo: https://kewplayer.com/images/kew.gif
 updated: '2026-07-18'
 repo_stars: 3182
-repo_updated: "2026-10-27"
+repo_updated: "2026-10-28"
 repo_created: "2023-05-17"
-repo_release: "v4.4.1"
-repo_release_date: "2026-10-13"
+repo_release: "v4.4.2"
+repo_release_date: "2026-10-28"
 ---

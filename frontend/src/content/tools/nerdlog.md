@@ -52,7 +52,7 @@ tags:
 media: https://dmitryfrank.com/_media/projects/nerdlog/nerdlog_intro_3.png
 logo: https://avatars.githubusercontent.com/u/1329932?v=4
 updated: '2026-10-25'
-repo_stars: 1582
+repo_stars: 1584
 repo_updated: "2026-10-03"
 repo_created: "2025-04-20"
 repo_release: "v1.13.0"
