@@ -51,6 +51,7 @@ tags:
   - syntax-highlighting
   - tail
 media: https://raw.githubusercontent.com/bensadeh/tailspin/main/assets/main.png
-logo: https://raw.githubusercontent.com/bensadeh/tailspin/main/assets/tailspin.png
+logo: https://cli.masoko.net/uploads/tailspin/logo.png
 updated: '2026-10-28'
+comments: []
 ---
