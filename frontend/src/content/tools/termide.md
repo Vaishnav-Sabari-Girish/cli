@@ -30,6 +30,8 @@ installation:
   - method: nix
     command: nix run github:termide/termide
 platforms:
+  - Linux
+  - macOS
   - Windows
 tags:
   - cli
