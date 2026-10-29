@@ -279,6 +279,19 @@ const title = page.currentPage > 1 ? `${SITE_NAME} — Page ${page.currentPage}`
 			}
 		}
 
+		// Higher is better: exact name > name prefix > name word > name substring > tag > description.
+		function relevance(tool: ToolIndexEntry, query: string): number {
+			const name = tool.name.toLowerCase();
+			if (name === query) return 6;
+			if (name.startsWith(query)) return 5;
+			if (name.split(/[\s\-_.]+/).some((word) => word.startsWith(query))) return 4;
+			if (name.includes(query)) return 3;
+			const tags = tool.tags.map((tag) => tag.toLowerCase());
+			if (tags.includes(query)) return 2;
+			if (tags.some((tag) => tag.includes(query))) return 1;
+			return 0;
+		}
+
 		function applyFilters() {
 			const query = search.value.trim().toLowerCase();
 			const category = categoryFilter.value;
@@ -308,7 +321,9 @@ const title = page.currentPage > 1 ? `${SITE_NAME} — Page ${page.currentPage}`
 				return matchesQuery && matchesCategory && matchesLanguage;
 			});
 			// The index is already in listing order (verified, then recently updated); only stars needs a re-sort.
+			// With a query, rank by relevance first; the stable sort keeps the chosen order within a tier.
 			if (sortByStars) matches.sort((a, b) => (b.stars ?? -1) - (a.stars ?? -1));
+			if (query) matches.sort((a, b) => relevance(b, query) - relevance(a, query));
 
 			results.replaceChildren(...matches.map(renderCard));
 			grid.hidden = true;
