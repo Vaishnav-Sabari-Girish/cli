@@ -46,7 +46,7 @@ tags:
 media: https://cli.masoko.net/uploads/bat/media.png
 logo: https://cli.masoko.net/uploads/bat/logo.png
 updated: '2026-07-11'
-repo_stars: 60992
+repo_stars: 60997
 repo_updated: "2026-10-28"
 repo_created: "2018-04-21"
 repo_release: "v0.26.1"
