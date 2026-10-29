@@ -41,4 +41,9 @@ tags:
 media: https://cli.masoko.net/uploads/gum/media.gif
 logo: https://cli.masoko.net/uploads/gum/logo.png
 updated: '2026-10-29'
+repo_stars: 24548
+repo_updated: "2026-09-24"
+repo_created: "2022-06-10"
+repo_release: "v2.0.2"
+repo_release_date: "2026-09-24"
 ---
