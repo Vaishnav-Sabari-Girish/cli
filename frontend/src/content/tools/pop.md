@@ -36,10 +36,10 @@ tags:
 media: https://cli.masoko.net/uploads/pop/media.gif
 logo: https://cli.masoko.net/uploads/pop/logo.png
 updated: '2026-10-29'
-comments: []
 repo_stars: 2927
-repo_updated: '2026-10-01'
-repo_created: '2023-06-21'
-repo_release: v0.5.0
-repo_release_date: '2026-08-20'
+repo_updated: "2026-10-01"
+repo_created: "2023-06-21"
+repo_release: "v0.5.0"
+repo_release_date: "2026-08-20"
+comments: []
 ---
